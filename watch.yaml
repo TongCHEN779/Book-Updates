@@ -1,0 +1,37 @@
+# 追踪范围配置 —— 改这个文件就等于改追踪范围，不用动代码。
+# 三个维度各自独立查询，结果合并去重后进入同一份 data/books.json。
+
+categories:
+  - machine learning
+  - deep learning
+  - optimization
+  - architecture
+
+publishers:
+  - Springer
+  - MIT Press
+  - O'Reilly Media
+  - Cambridge University Press
+
+authors:
+  - Kevin P. Murphy
+  - Christopher Bishop
+
+# 语言过滤（Google Books 的 langRestrict），留空表示不限
+languages:
+  - en
+  - zh
+
+# 数据源开关
+sources:
+  google_books: true
+  open_library: true
+
+# 只保留出版日期在最近 N 天内（含未来预售）的书；API 返回的日期经常不准，这个值别设太小
+published_within_days: 120
+
+# 一本书被系统首次发现后保留多少天，超过就从 books.json 里清掉，避免文件无限增长
+retain_days: 365
+
+# 每个查询最多取多少条
+max_results_per_query: 40
