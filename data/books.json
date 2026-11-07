@@ -1,1 +1,133 @@
-{"updated": "1970-01-01T00:00:00+00:00", "count": 0, "books": []}
+{
+ "updated": "2026-11-07T22:25:36+00:00",
+ "count": 4,
+ "books": [
+  {
+   "id": "isbn:9780262056458",
+   "title": "How We Govern Our Minds Through Others",
+   "subtitle": "Epistemic Autonomy Beyond the Myth of Independence",
+   "authors": [
+    "J. Adam Carter",
+    "Neil Levy"
+   ],
+   "publisher": "The MIT Press",
+   "categories": [],
+   "published": "2026-10-13",
+   "isbn13": "9780262056458",
+   "cover": "https://covers.openlibrary.org/b/id/15264776-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46093426W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "isbn:9781394418992",
+   "title": "AI SEO For Dummies",
+   "subtitle": "",
+   "authors": [
+    "Nathan Gotch"
+   ],
+   "publisher": "Wiley",
+   "categories": [
+    "Search engine optimization",
+    "Answer engine optimization",
+    "Generative engine optimization",
+    "Artificial intelligence",
+    "Internet marketing"
+   ],
+   "published": "2026-09-22",
+   "isbn13": "9781394418992",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46110644W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "isbn:9780262054584",
+   "title": "Soviet Blocks",
+   "subtitle": "The Bizarre Puzzle of How Tetris Embraced Western Values",
+   "authors": [
+    "Julien Mailland"
+   ],
+   "publisher": "The MIT Press",
+   "categories": [
+    "Video games",
+    "HISTORY"
+   ],
+   "published": "2026-09-22",
+   "isbn13": "9780262054584",
+   "cover": "https://covers.openlibrary.org/b/id/15261398-M.jpg",
+   "description": "",
+   "language": null,
+   "url": "https://openlibrary.org/works/OL46052265W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-07"
+  },
+  {
+   "id": "isbn:9786526680599",
+   "title": "SEO de Entidade",
+   "subtitle": "Como o Google e as IAs decidem quem citar, e o que você faz a respeito",
+   "authors": [
+    "Daniel Sócrates"
+   ],
+   "publisher": "SEO Genome",
+   "categories": [
+    "SEO",
+    "otimização para mecanismos de busca",
+    "marketing digital",
+    "inteligência artificial",
+    "Knowledge Graph",
+    "entidades",
+    "busca semântica",
+    "Generative Engine Optimization"
+   ],
+   "published": "2026-08-21",
+   "isbn13": "9786526680599",
+   "cover": "https://covers.openlibrary.org/b/id/15247507-M.jpg",
+   "description": "",
+   "language": "por",
+   "url": "https://openlibrary.org/works/OL45904299W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-07"
+  }
+ ]
+}

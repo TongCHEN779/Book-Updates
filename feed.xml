@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>New Books Tracker</title>
+  <link>./</link>
+  <description>按类别 / 出版社 / 作者追踪的新书</description>
+  <lastBuildDate>Sat, 07 Nov 2026 22:25:36 +0000</lastBuildDate>
+  <item>
+    <title>How We Govern Our Minds Through Others</title>
+    <link>https://openlibrary.org/works/OL46093426W</link>
+    <guid isPermaLink="false">isbn:9780262056458</guid>
+    <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[J. Adam Carter, Neil Levy · The MIT Press · 2026-10-13]]></description>
+  </item>
+  <item>
+    <title>AI SEO For Dummies</title>
+    <link>https://openlibrary.org/works/OL46110644W</link>
+    <guid isPermaLink="false">isbn:9781394418992</guid>
+    <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Nathan Gotch · Wiley · 2026-09-22]]></description>
+  </item>
+  <item>
+    <title>Soviet Blocks</title>
+    <link>https://openlibrary.org/works/OL46052265W</link>
+    <guid isPermaLink="false">isbn:9780262054584</guid>
+    <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Julien Mailland · The MIT Press · 2026-09-22]]></description>
+  </item>
+  <item>
+    <title>SEO de Entidade</title>
+    <link>https://openlibrary.org/works/OL45904299W</link>
+    <guid isPermaLink="false">isbn:9786526680599</guid>
+    <pubDate>Sat, 07 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Daniel Sócrates · SEO Genome · 2026-08-21]]></description>
+  </item>
+</channel>
+</rss>
