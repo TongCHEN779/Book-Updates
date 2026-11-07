@@ -6,12 +6,31 @@ categories:
   - deep learning
   - optimization
   - architecture
+  - literature
+  - art
+  - philosophy
+  # 中文类别：Google Books 里中文书的 subject 多为中文
+  - 文学
+  - 艺术
+  - 哲学
 
 publishers:
   - Springer
   - MIT Press
   - O'Reilly Media
   - Cambridge University Press
+  # 中文出版社
+  - 中信出版社
+  - 机械工业出版社
+  - 人民邮电出版社
+  - 电子工业出版社
+  - 清华大学出版社
+  - 人民文学出版社
+  - 上海译文出版社
+  - 商务印书馆
+  - 中华书局
+  - 生活·读书·新知三联书店
+  - 北京大学出版社
 
 authors:
   - Kevin P. Murphy
