@@ -229,6 +229,7 @@ def collect(cfg: dict, api_key: str | None) -> list[tuple[dict, dict]]:
 
 def merge(existing: dict[str, dict], found: list[tuple[dict, dict]], cfg: dict) -> dict[str, dict]:
     within = timedelta(days=int(cfg.get("published_within_days", 120)))
+    ahead = timedelta(days=int(cfg.get("max_future_days", 180)))
     retain = timedelta(days=int(cfg.get("retain_days", 365)))
     today_s = TODAY.isoformat()
 
@@ -243,8 +244,8 @@ def merge(existing: dict[str, dict], found: list[tuple[dict, dict]], cfg: dict) 
         if not raw["title"]:
             continue
         pub = parse_date(raw.get("published"))
-        if pub is None or TODAY - pub > within:
-            continue  # 太旧或没日期 → 丢
+        if pub is None or TODAY - pub > within or pub - TODAY > ahead:
+            continue  # 太旧、没日期、或日期离谱地在未来（API 脏数据）→ 丢
         bid = book_id(raw.get("isbn13"), raw["title"], raw["authors"])
         b = books.get(bid)
         if b is None:

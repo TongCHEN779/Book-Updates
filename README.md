@@ -14,7 +14,7 @@ watch.yaml  ──►  scripts/fetch_books.py  ──►  data/books.json + feed
 3. **Actions** 标签页里找到 `Update new books`，点 `Run workflow` 手动跑第一次。
 4. 几分钟后打开 `https://<你的用户名>.github.io/<仓库名>/`。
 
-之后每天 05:17 UTC 自动更新；也可以随时手动 `Run workflow`。
+之后每天 18:17 UTC（北京时间 02:17）自动更新；也可以随时手动 `Run workflow`。
 
 ## 改追踪范围
 
