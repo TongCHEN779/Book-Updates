@@ -45,18 +45,41 @@ def log(msg: str) -> None:
     print(msg, file=sys.stderr, flush=True)
 
 
-def get_json(url: str, params: dict, retries: int = 3, pause: float = 1.0) -> dict | None:
+# 熔断：某个主机连续失败 / 日配额用尽后，本次运行不再请求它，避免把整个 Action 拖到超时
+_HOST_FAILS: dict[str, int] = {}
+_HOST_DEAD: set[str] = set()
+MAX_HOST_FAILS = 3
+DEADLINE: float | None = None  # time.monotonic() 的截止时间，由 main() 设置
+
+
+def out_of_time() -> bool:
+    return DEADLINE is not None and time.monotonic() > DEADLINE
+
+
+def get_json(url: str, params: dict, retries: int = 2, pause: float = 1.0) -> dict | None:
+    host = url.split("/")[2]
+    if host in _HOST_DEAD or out_of_time():
+        return None
     for attempt in range(retries):
         try:
-            r = SESSION.get(url, params=params, timeout=30)
+            r = SESSION.get(url, params=params, timeout=20)
             if r.status_code == 429:
+                if "per day" in r.text:  # 日配额用尽，重试没有意义
+                    log(f"  ! {host} 日配额已用尽，本次运行不再请求（设置 API key 可提高配额）")
+                    _HOST_DEAD.add(host)
+                    return None
                 time.sleep(5 * (attempt + 1))
                 continue
             r.raise_for_status()
+            _HOST_FAILS[host] = 0
             return r.json()
         except Exception as e:  # noqa: BLE001
             log(f"  ! {url} 失败 ({attempt + 1}/{retries}): {e}")
             time.sleep(pause * (attempt + 1))
+    _HOST_FAILS[host] = _HOST_FAILS.get(host, 0) + 1
+    if _HOST_FAILS[host] >= MAX_HOST_FAILS:
+        log(f"  ! {host} 连续失败 {MAX_HOST_FAILS} 次，本次运行不再请求")
+        _HOST_DEAD.add(host)
     return None
 
 
@@ -288,6 +311,11 @@ def collect(cfg: dict, api_key: str | None) -> list[tuple[dict, dict]]:
     results: list[tuple[dict, dict]] = []
     src = cfg.get("sources", {})
 
+    # 豆瓣请求最少、对中文最有价值，先跑，保证即使后面超时也有数据
+    if src.get("douban", False):
+        log("[豆瓣] 新书速递")
+        results.extend(collect_douban(cfg))
+
     def add(books: list[dict], kind: str, value: str) -> None:
         for b in books:
             results.append((b, {kind: value}))
@@ -312,10 +340,6 @@ def collect(cfg: dict, api_key: str | None) -> list[tuple[dict, dict]]:
             add(google_books(f'inauthor:"{a}"', cfg, api_key), "authors", a)
         if src.get("open_library", True):
             add(open_library({"author": a}, cfg), "authors", a)
-
-    if src.get("douban", False):
-        log("[豆瓣] 新书速递")
-        results.extend(collect_douban(cfg))
 
     return results
 
@@ -423,7 +447,11 @@ def main() -> int:
         old = json.loads(DATA_FILE.read_text(encoding="utf-8"))
         existing = {b["id"]: b for b in old.get("books", [])}
 
+    global DEADLINE
+    DEADLINE = time.monotonic() + float(cfg.get("time_budget_minutes", 15)) * 60
     found = collect(cfg, api_key)
+    if out_of_time():
+        log("! 超过时间预算，后面的查询被跳过；已抓到的部分照常合并写入")
     log(f"共抓到 {len(found)} 条原始记录")
 
     books = merge(existing, found, cfg)

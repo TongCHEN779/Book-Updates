@@ -66,3 +66,6 @@ retain_days: 365
 
 # 每个查询最多取多少条
 max_results_per_query: 40
+
+# 单次运行的总时间预算（分钟）。超时后剩余查询被跳过，已抓到的数据照常保存。需小于 workflow 的 timeout-minutes
+time_budget_minutes: 15
