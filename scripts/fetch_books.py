@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import html
 import json
 import re
 import sys
@@ -192,6 +193,94 @@ def open_library(params: dict, cfg: dict) -> list[dict]:
 
 
 # --------------------------------------------------------------------------- #
+# 数据源 3: 豆瓣「新书速递」（无官方 API，解析公开 HTML；只取前几页，请求很少）
+# --------------------------------------------------------------------------- #
+DB_URL = "https://book.douban.com/latest"
+# 豆瓣分类 → watch.yaml 里的 categories 名；只有 watch.yaml 里写了这个类别才会命中
+DB_SUBCAT_TO_CATEGORY = {"文学": "文学", "小说": "文学", "艺术设计": "艺术"}
+_DB_ITEM = re.compile(r'<li class="media clearfix">(.*?)</li>', re.S)
+_DB_TITLE = re.compile(r'<h2[^>]*>\s*<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', re.S)
+_DB_ABSTRACT = re.compile(r'<p class="subject-abstract[^"]*">(.*?)</p>', re.S)
+_DB_COVER = re.compile(r'<img class="subject-cover"[^>]*src="([^"]+)"')
+_DB_DATE = re.compile(r"^\d{4}(-\d{1,2}){0,2}$")
+
+
+def _db_parse(html_text: str, subcat: str) -> list[dict]:
+    out: list[dict] = []
+    for m in _DB_ITEM.finditer(html_text):
+        block = m.group(1)
+        t, ab = _DB_TITLE.search(block), _DB_ABSTRACT.search(block)
+        if not t or not ab:
+            continue
+        parts = [norm_text(html.unescape(x)) for x in ab.group(1).split("/")]
+        di = next((i for i, x in enumerate(parts) if _DB_DATE.match(x)), None)
+        if di is None:
+            continue  # 没有出版日期的条目无法判断新旧，丢弃
+        authors = [re.sub(r"^[\[\(（【].*?[\]\)）】]\s*", "", a) for a in parts[:di] if a]
+        cover = _DB_COVER.search(block)
+        out.append(
+            {
+                "title": norm_text(html.unescape(re.sub(r"<[^>]+>", "", t.group(2)))),
+                "subtitle": "",
+                "authors": authors[:1],  # 后面的通常是译者，只留第一作者以便去重和筛选
+                "publisher": parts[di + 1] if di + 1 < len(parts) else "",
+                "categories": [] if subcat == "全部" else [subcat],
+                "published": parts[di],
+                "isbn13": None,  # 列表页没有 ISBN → id 走 title+作者 的 hash
+                "cover": cover.group(1) if cover else "",
+                "description": "",
+                "language": "zh",
+                "url": t.group(1),
+                "source": "douban",
+            }
+        )
+    return out
+
+
+def douban(cfg: dict) -> list[dict]:
+    dcfg = cfg.get("douban") or {}
+    subcats = ["全部"] + list(dcfg.get("subcats", ["文学", "小说", "艺术设计"]))
+    out: list[dict] = []
+    for sc in subcats:
+        try:
+            r = SESSION.get(DB_URL, params={"subcat": sc}, timeout=30)
+            if r.status_code != 200:
+                log(f"  ! 豆瓣 {sc}: HTTP {r.status_code}（可能被反爬拦截，跳过）")
+                continue
+            items = _db_parse(r.text, sc)
+            log(f"  豆瓣 {sc}: {len(items)} 本")
+            out.extend(items)
+        except Exception as e:  # noqa: BLE001
+            log(f"  ! 豆瓣 {sc} 失败: {e}")
+        time.sleep(3.0)  # 礼貌：每天总共只有几个请求
+    return out
+
+
+def _same_publisher(a: str, b: str) -> bool:
+    a, b = re.sub(r"\s+", "", a), re.sub(r"\s+", "", b)
+    return bool(a and b and (a in b or b in a))
+
+
+def collect_douban(cfg: dict) -> list[tuple[dict, dict]]:
+    """豆瓣是「全站新书」而不是按查询返回，所以要在本地按 watch.yaml 打 matched 标签。"""
+    keep_all = bool((cfg.get("douban") or {}).get("keep_all", False))
+    watch_pubs = cfg.get("publishers", [])
+    watch_cats = set(cfg.get("categories", []))
+    res: list[tuple[dict, dict]] = []
+    for b in douban(cfg):
+        matched: dict = {}
+        pubs = [p for p in watch_pubs if _same_publisher(p, b["publisher"])]
+        cats = sorted({DB_SUBCAT_TO_CATEGORY[c] for c in b["categories"] if DB_SUBCAT_TO_CATEGORY.get(c) in watch_cats})
+        if pubs:
+            matched["publishers"] = pubs
+        if cats:
+            matched["categories"] = cats
+        if matched or keep_all:
+            res.append((b, matched))
+    return res
+
+
+# --------------------------------------------------------------------------- #
 # 主流程
 # --------------------------------------------------------------------------- #
 def collect(cfg: dict, api_key: str | None) -> list[tuple[dict, dict]]:
@@ -223,6 +312,10 @@ def collect(cfg: dict, api_key: str | None) -> list[tuple[dict, dict]]:
             add(google_books(f'inauthor:"{a}"', cfg, api_key), "authors", a)
         if src.get("open_library", True):
             add(open_library({"author": a}, cfg), "authors", a)
+
+    if src.get("douban", False):
+        log("[豆瓣] 新书速递")
+        results.extend(collect_douban(cfg))
 
     return results
 
@@ -277,9 +370,10 @@ def merge(existing: dict[str, dict], found: list[tuple[dict, dict]], cfg: dict) 
                     b["categories"].append(c)
             if raw["source"] not in b["sources"]:
                 b["sources"].append(raw["source"])
-        for k, v in matched.items():
-            if v not in b["matched"][k]:
-                b["matched"][k].append(v)
+        for k, vs in matched.items():
+            for v in (vs if isinstance(vs, list) else [vs]):
+                if v not in b["matched"][k]:
+                    b["matched"][k].append(v)
     return books
 
 

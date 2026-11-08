@@ -21,6 +21,7 @@ publishers:
   - Cambridge University Press
   # 中文出版社
   - 中信出版社
+  - 中信出版集团
   - 机械工业出版社
   - 人民邮电出版社
   - 电子工业出版社
@@ -45,9 +46,17 @@ languages:
 sources:
   google_books: true
   open_library: true
+  douban: true   # 中文新书的主力来源（解析豆瓣「新书速递」公开页面）
+
+# 豆瓣源设置
+douban:
+  # 额外抓取的豆瓣分类页。「文学/小说」会命中类别「文学」，「艺术设计」会命中类别「艺术」
+  subcats: [文学, 小说, 艺术设计]
+  # false：只保留命中上面 publishers / categories 的书；true：豆瓣新书速递全收
+  keep_all: false
 
 # 只保留出版日期在最近 N 天内（含未来预售）的书；API 返回的日期经常不准，这个值别设太小
-published_within_days: 120
+published_within_days: 365
 
 # 出版日期最多可以晚于今天多少天（预售书）；超过的基本是 API 脏数据（如 2035 年），直接丢弃
 max_future_days: 180

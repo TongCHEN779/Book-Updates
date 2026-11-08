@@ -45,6 +45,7 @@ python -m http.server 8000                # 打开 http://localhost:8000
 |---|---|---|
 | [Google Books API](https://developers.google.com/books/docs/v1/using) | 主力：类别 / 出版社 / 作者三种查询都支持，有封面和简介 | 无 key 时配额较低；中文书覆盖一般 |
 | [Open Library](https://openlibrary.org/dev/docs/api/search) | 补充：同样支持三种查询，作者数据干净 | 响应慢，出版日期有时不准 |
+| 豆瓣[新书速递](https://book.douban.com/latest) | 中文新书主力：解析公开 HTML，按 `watch.yaml` 的出版社 / 类别在本地过滤（`douban.keep_all: true` 可全收） | 无官方 API；无 ISBN；GitHub Actions 的 IP 可能被反爬拦截（失败会跳过，不影响其他源）；只用于个人订阅，请勿加大请求频率 |
 
 ## 数据格式
 
