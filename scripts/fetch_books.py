@@ -30,6 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 WATCH_FILE = ROOT / "watch.yaml"
 DATA_FILE = ROOT / "data" / "books.json"
 FEED_FILE = ROOT / "feed.xml"
+FEED_DIR = ROOT / "feed"
 
 UA = "newbooks-tracker/0.1 (+https://github.com/)"
 SESSION = requests.Session()
@@ -401,7 +402,7 @@ def merge(existing: dict[str, dict], found: list[tuple[dict, dict]], cfg: dict) 
     return books
 
 
-def write_feed(books: list[dict], limit: int = 50) -> None:
+def write_feed(books: list[dict], path: Path = FEED_FILE, title: str = "New Books Tracker", limit: int = 50) -> None:
     items = []
     for b in books[:limit]:
         authors = ", ".join(b["authors"]) or "未知作者"
@@ -421,7 +422,7 @@ def write_feed(books: list[dict], limit: int = 50) -> None:
     xml = f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-  <title>New Books Tracker</title>
+  <title>{escape(title)}</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
   <lastBuildDate>{datetime.now(timezone.utc).strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
@@ -429,7 +430,32 @@ def write_feed(books: list[dict], limit: int = 50) -> None:
 </channel>
 </rss>
 """
-    FEED_FILE.write_text(xml, encoding="utf-8")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(xml, encoding="utf-8")
+
+
+def feed_slug(name: str) -> str:
+    """文件名用 ASCII：纯英文类别用可读 slug，含中文等的用 hash，保证 URL 稳定且不用转义。"""
+    if name.isascii():
+        slug = re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+        if slug:
+            return slug
+    return "c-" + hashlib.sha1(name.encode()).hexdigest()[:8]
+
+
+def write_category_feeds(books: list[dict], cfg: dict) -> None:
+    """每个类别一个 feed/<slug>.xml，外加 feed/index.json 供前端列出订阅链接。"""
+    entries, keep = [], set()
+    for cat in cfg.get("categories", []):
+        slug = feed_slug(cat)
+        rows = [b for b in books if cat in b.get("matched", {}).get("categories", [])]
+        write_feed(rows, FEED_DIR / f"{slug}.xml", title=f"New Books · {cat}")  # 空类别也生成，订阅地址保持稳定
+        keep.add(f"{slug}.xml")
+        entries.append({"name": cat, "file": f"feed/{slug}.xml", "count": len(rows)})
+    for old in FEED_DIR.glob("*.xml"):  # 清掉已从 watch.yaml 删除的类别
+        if old.name not in keep:
+            old.unlink()
+    (FEED_DIR / "index.json").write_text(json.dumps(entries, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
 def main() -> int:
@@ -440,6 +466,7 @@ def main() -> int:
     import os
 
     api_key = os.environ.get("GOOGLE_BOOKS_API_KEY") or None
+    log("Google Books: " + ("已使用 API key" if api_key else "未设置 API key（配额较低）"))
     cfg = yaml.safe_load(WATCH_FILE.read_text(encoding="utf-8")) or {}
 
     existing: dict[str, dict] = {}
@@ -474,6 +501,7 @@ def main() -> int:
         encoding="utf-8",
     )
     write_feed(ordered)
+    write_category_feeds(ordered, cfg)
     return 0
 
 

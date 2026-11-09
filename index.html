@@ -75,6 +75,8 @@
     <div class="chips" id="publishers"></div>
     <h2>作者</h2>
     <div class="chips" id="authors"></div>
+    <h2>按类别订阅 RSS</h2>
+    <div class="chips" id="feeds"></div>
   </aside>
   <section>
     <div class="toolbar">
@@ -139,6 +141,20 @@
 
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
+
+  // ---- 按类别的 RSS 订阅链接（feed/index.json 由脚本生成） ----
+  try {
+    const feeds = await (await fetch('feed/index.json?' + Date.now())).json();
+    const box = $('#feeds');
+    for (const f of feeds) {
+      const a = document.createElement('a');
+      a.className = 'chip';
+      a.href = f.file;
+      a.style.textDecoration = 'none';
+      a.innerHTML = `${esc(f.name)}<small>${f.count}</small>`;
+      box.appendChild(a);
+    }
+  } catch (e) { /* 还没生成就不显示 */ }
 
   const daysAgo = (iso) => (Date.now() - new Date(iso)) / 86400000;
   const today = new Date().toISOString().slice(0, 10);

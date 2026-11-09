@@ -39,6 +39,11 @@ python -m http.server 8000                # 打开 http://localhost:8000
 
 可选：设置 `GOOGLE_BOOKS_API_KEY`（在 GitHub 仓库 Settings → Secrets 里加同名 secret）可以提高 Google Books 配额，不设也能跑。
 
+## RSS 订阅
+
+- 全部新书：`feed.xml`
+- 按类别：`feed/<slug>.xml`，页面左侧「按类别订阅 RSS」里直接点链接复制即可（中文类别的文件名是 hash，所以别手敲）。
+
 ## 数据源
 
 | 源 | 用途 | 限制 |

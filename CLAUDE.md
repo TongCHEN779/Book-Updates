@@ -37,7 +37,7 @@ Candidates worth adding:
 
 ## Roadmap (not started)
 
-- [ ] Per-filter RSS feeds (`feed/<category>.xml`) so one can subscribe to just one topic.
+- [x] Per-category RSS feeds: `feed/<slug>.xml` + `feed/index.json` (ASCII names use a readable slug, others `c-<sha1[:8]>`). Publisher / author feeds not done.
 - [ ] "Mark as read / saved" using localStorage (wrap in try/catch).
 - [ ] Split `books.json` by month once it passes ~5 MB.
 - [ ] Optional LLM pass to auto-tag or summarize new entries (would need an API key secret).
