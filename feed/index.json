@@ -1,0 +1,52 @@
+[
+ {
+  "name": "machine learning",
+  "file": "feed/machine-learning.xml",
+  "count": 24
+ },
+ {
+  "name": "deep learning",
+  "file": "feed/deep-learning.xml",
+  "count": 0
+ },
+ {
+  "name": "optimization",
+  "file": "feed/optimization.xml",
+  "count": 16
+ },
+ {
+  "name": "architecture",
+  "file": "feed/architecture.xml",
+  "count": 40
+ },
+ {
+  "name": "literature",
+  "file": "feed/literature.xml",
+  "count": 39
+ },
+ {
+  "name": "art",
+  "file": "feed/art.xml",
+  "count": 34
+ },
+ {
+  "name": "philosophy",
+  "file": "feed/philosophy.xml",
+  "count": 40
+ },
+ {
+  "name": "文学",
+  "file": "feed/c-de5ec30b.xml",
+  "count": 40
+ },
+ {
+  "name": "艺术",
+  "file": "feed/c-be73170b.xml",
+  "count": 13
+ },
+ {
+  "name": "哲学",
+  "file": "feed/c-ad50b63c.xml",
+  "count": 1
+ }
+]

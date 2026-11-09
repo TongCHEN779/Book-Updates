@@ -1,7 +1,289 @@
 {
- "updated": "2026-11-08T22:15:54+00:00",
- "count": 301,
+ "updated": "2026-11-09T12:14:49+00:00",
+ "count": 310,
  "books": [
+  {
+   "id": "h:c6ebd92d3f2d397a",
+   "title": "即兴的艺术：爵士乐与现代文化",
+   "subtitle": "",
+   "authors": [
+    "泰德·乔亚"
+   ],
+   "publisher": "商务印书馆",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35674344.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38676713/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [
+     "商务印书馆"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "h:5200390c60ca848c",
+   "title": "一个从未存在的帝国",
+   "subtitle": "",
+   "authors": [
+    "安赫莉卡·戈罗迪舍"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35667153.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38618588/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "h:4ac6a5b3c5b77d58",
+   "title": "乡愁",
+   "subtitle": "",
+   "authors": [
+    "赫尔曼·黑塞"
+   ],
+   "publisher": "文汇出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35636996.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38595087/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "h:5bffd58e4b928ae4",
+   "title": "一臭万年：发酵缸中的文明史",
+   "subtitle": "",
+   "authors": [
+    "曹雨"
+   ],
+   "publisher": "中信出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35690653.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38174656/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "h:b2d73b503ad23538",
+   "title": "破邪论校注 辩正论校注",
+   "subtitle": "",
+   "authors": [
+    "唐·法琳"
+   ],
+   "publisher": "中华书局",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35690663.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/36828363/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中华书局"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "h:8b0cb6c928344114",
+   "title": "威尼斯的石头：基础，大海的故事，衰落",
+   "subtitle": "",
+   "authors": [
+    "约翰·罗斯金"
+   ],
+   "publisher": "上海三联书店",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35690644.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37470541/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "isbn:9780262055291",
+   "title": "Peer Production",
+   "subtitle": "",
+   "authors": [
+    "Benjamin Mako Hill",
+    "Christian Pentzold",
+    "Aaron Shaw"
+   ],
+   "publisher": "The MIT Press",
+   "categories": [
+    "Peer production",
+    "Collaboration",
+    "Wikipedia",
+    "Linux",
+    "Open source software",
+    "Internet and society",
+    "Information society"
+   ],
+   "published": "2026-09-22",
+   "isbn13": "9780262055291",
+   "cover": "https://covers.openlibrary.org/b/id/15273315-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46182173W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "isbn:9781098171919",
+   "title": "Generative AI on Kubernetes",
+   "subtitle": "",
+   "authors": [
+    "Roland Huß",
+    "Daniele Zonca"
+   ],
+   "publisher": "O'Reilly Media",
+   "categories": [
+    "Kubernetes",
+    "Generative artificial intelligence",
+    "Large language models",
+    "Cloud computing",
+    "MLOps",
+    "Containers"
+   ],
+   "published": "2026-04-07",
+   "isbn13": "9781098171919",
+   "cover": "https://covers.openlibrary.org/b/id/15273482-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46182194W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "O'Reilly Media"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
+  {
+   "id": "isbn:9798341622999",
+   "title": "Cilium",
+   "subtitle": "Up and Running",
+   "authors": [
+    "Nico Vibert",
+    "Filip Nikolic",
+    "James Laverack"
+   ],
+   "publisher": "O'Reilly Media",
+   "categories": [
+    "Cilium",
+    "Kubernetes",
+    "Computer networking",
+    "Network security",
+    "Cloud computing",
+    "eBPF",
+    "Computer security",
+    "Observability"
+   ],
+   "published": "2026-03-31",
+   "isbn13": "9798341622999",
+   "cover": "https://covers.openlibrary.org/b/id/15273489-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46182196W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "O'Reilly Media"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-09"
+  },
   {
    "id": "h:81a6ca0eab91c87c",
    "title": "万王之王：伊朗1979",

@@ -4,7 +4,70 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sun, 08 Nov 2026 22:15:54 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 12:14:49 +0000</lastBuildDate>
+  <item>
+    <title>即兴的艺术：爵士乐与现代文化</title>
+    <link>https://book.douban.com/subject/38676713/</link>
+    <guid isPermaLink="false">h:c6ebd92d3f2d397a</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[泰德·乔亚 · 商务印书馆 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>一个从未存在的帝国</title>
+    <link>https://book.douban.com/subject/38618588/</link>
+    <guid isPermaLink="false">h:5200390c60ca848c</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[安赫莉卡·戈罗迪舍 · 北京联合出版公司 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>乡愁</title>
+    <link>https://book.douban.com/subject/38595087/</link>
+    <guid isPermaLink="false">h:4ac6a5b3c5b77d58</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[赫尔曼·黑塞 · 文汇出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>一臭万年：发酵缸中的文明史</title>
+    <link>https://book.douban.com/subject/38174656/</link>
+    <guid isPermaLink="false">h:5bffd58e4b928ae4</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[曹雨 · 中信出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>破邪论校注 辩正论校注</title>
+    <link>https://book.douban.com/subject/36828363/</link>
+    <guid isPermaLink="false">h:b2d73b503ad23538</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[唐·法琳 · 中华书局 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>威尼斯的石头：基础，大海的故事，衰落</title>
+    <link>https://book.douban.com/subject/37470541/</link>
+    <guid isPermaLink="false">h:8b0cb6c928344114</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·罗斯金 · 上海三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>Peer Production</title>
+    <link>https://openlibrary.org/works/OL46182173W</link>
+    <guid isPermaLink="false">isbn:9780262055291</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Benjamin Mako Hill, Christian Pentzold, Aaron Shaw · The MIT Press · 2026-09-22]]></description>
+  </item>
+  <item>
+    <title>Generative AI on Kubernetes</title>
+    <link>https://openlibrary.org/works/OL46182194W</link>
+    <guid isPermaLink="false">isbn:9781098171919</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Roland Huß, Daniele Zonca · O'Reilly Media · 2026-04-07]]></description>
+  </item>
+  <item>
+    <title>Cilium</title>
+    <link>https://openlibrary.org/works/OL46182196W</link>
+    <guid isPermaLink="false">isbn:9798341622999</guid>
+    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Nico Vibert, Filip Nikolic, James Laverack · O'Reilly Media · 2026-03-31]]></description>
+  </item>
   <item>
     <title>万王之王：伊朗1979</title>
     <link>https://book.douban.com/subject/38574975/</link>
@@ -291,69 +354,6 @@
     <guid isPermaLink="false">h:327747cc1a1d1094</guid>
     <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[欧大旭 · 上海译文出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>洛夫戴先生的小出游</title>
-    <link>https://book.douban.com/subject/38567087/</link>
-    <guid isPermaLink="false">h:672cbed56631c593</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[伊夫林·沃 · 海峡文艺出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>报应不爽</title>
-    <link>https://book.douban.com/subject/38492198/</link>
-    <guid isPermaLink="false">h:1e0e652a7fcbfbd8</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[艾玛·艾斯特罗姆 · 北京联合出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>娱乐映城：重访新艺城喜剧电影</title>
-    <link>https://book.douban.com/subject/38584273/</link>
-    <guid isPermaLink="false">h:9086c071614bb1a6</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[叶航 · 北京大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>社会主义喜剧文化中的“上海”（1949-1966）</title>
-    <link>https://book.douban.com/subject/38929156/</link>
-    <guid isPermaLink="false">h:722eabff7dcd9212</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[朱羽 · 复旦大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>你得耐心地寻找同类</title>
-    <link>https://book.douban.com/subject/38631888/</link>
-    <guid isPermaLink="false">h:f6713b2633cef3c8</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[梅雪风 · 上海文艺出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>我们还不错：安东尼·霍普金斯自传</title>
-    <link>https://book.douban.com/subject/38611075/</link>
-    <guid isPermaLink="false">h:6703d9141e4701d5</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[安东尼·霍普金斯 · 北京联合出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>日本漫画千年</title>
-    <link>https://book.douban.com/subject/37844089/</link>
-    <guid isPermaLink="false">h:17f4fe18788c3a8a</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[布里吉特·小山-理查 · 上海文化出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>Ch'aek kwa uyŏndŭl</title>
-    <link>https://openlibrary.org/works/OL31914028W</link>
-    <guid isPermaLink="false">isbn:9791170401421</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Ch'o-yŏp Kim · 上海译文出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>大地给我准备了一只饭碗和小小的缺口</title>
-    <link>https://book.douban.com/subject/38616539/</link>
-    <guid isPermaLink="false">h:ce793018d393614f</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[李瑾 · 四川文艺出版社 · 2026-08-01]]></description>
   </item>
 </channel>
 </rss>

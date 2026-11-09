@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>New Books · 哲学</title>
+  <link>./</link>
+  <description>按类别 / 出版社 / 作者追踪的新书</description>
+  <lastBuildDate>Mon, 09 Nov 2026 12:14:49 +0000</lastBuildDate>
+  <item>
+    <title>そんな感じ. 名づけようのないものを、探求する者へ</title>
+    <link>https://openlibrary.org/works/OL45594029W</link>
+    <guid isPermaLink="false">isbn:9786178923631</guid>
+    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Громко Володимир Сергійович · ФОП Середняк Т.К. · 2026-06-09]]></description>
+  </item>
+</channel>
+</rss>
