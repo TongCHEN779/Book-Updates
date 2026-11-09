@@ -156,6 +156,9 @@
     }
   } catch (e) { /* 还没生成就不显示 */ }
 
+  // 封面：豆瓣图片有防盗链，从本站加载一律 403，所以不请求它，直接显示占位图；其他来源加载失败时也回退到占位图
+  const coverUrl = (b) => (b.cover && !/doubanio\.com/.test(b.cover) ? b.cover : '');
+
   const daysAgo = (iso) => (Date.now() - new Date(iso)) / 86400000;
   const today = new Date().toISOString().slice(0, 10);
 
@@ -182,7 +185,10 @@
     for (const b of rows) {
       const el = document.createElement('article');
       el.className = 'book';
-      const cover = b.cover ? `<img src="${safeUrl(b.cover)}" alt="" loading="lazy">` : '<div class="nocover">无封面</div>';
+      const cu = coverUrl(b);
+      const cover = cu
+        ? `<img src="${safeUrl(cu)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',textContent:'无封面'}))">`
+        : '<div class="nocover">无封面</div>';
       const tags = [...(b.matched?.categories || []).map((t) => `<span class="tag">#${esc(t)}</span>`),
                     ...(b.sources || []).map((s) => `<span class="tag">${esc(s)}</span>`)].join('');
       el.innerHTML = `
