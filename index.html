@@ -9,96 +9,172 @@
   :root {
     --bg: #fafaf8; --fg: #1c1c1a; --muted: #6b6b66; --line: #e4e2dc; --card: #fff;
     --accent: #2f5fd1; --chip: #eef1f8; --chip-on: #2f5fd1; --chip-on-fg: #fff;
-    --new: #d1442f;
+    --new: #d1442f; --band: rgba(47, 95, 209, .07);
+    --row-h: clamp(200px, 29vh, 250px);   /* 每个横框的高度，所有横框一样 */
+    --label-w: clamp(104px, 19vw, 210px); /* 左侧类别列宽 */
+    --card-w: min(370px, 82vw);           /* 横框里每本书的宽度 */
   }
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #141413; --fg: #ecebe6; --muted: #9b9a93; --line: #2a2a28; --card: #1d1d1b;
       --accent: #7a9cf0; --chip: #26272c; --chip-on: #7a9cf0; --chip-on-fg: #121212;
-      --new: #f07a68;
+      --new: #f07a68; --band: rgba(122, 156, 240, .09);
     }
   }
   * { box-sizing: border-box; }
-  body { margin: 0; font: 15px/1.5 -apple-system, "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif; background: var(--bg); color: var(--fg); }
-  header { padding: 20px 24px 12px; border-bottom: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: baseline; }
+  html, body { height: 100%; }
+  body {
+    margin: 0; display: flex; flex-direction: column; height: 100dvh; overflow: hidden;
+    font: 15px/1.5 -apple-system, "PingFang SC", "Noto Sans CJK SC", system-ui, sans-serif;
+    background: var(--bg); color: var(--fg);
+  }
+  header { padding: 14px 24px 8px; display: flex; flex-wrap: wrap; gap: 6px 20px; align-items: baseline; }
   header h1 { margin: 0; font-size: 20px; font-weight: 600; }
   header .meta { color: var(--muted); font-size: 13px; }
-  header a { color: var(--accent); text-decoration: none; }
-  main { display: grid; grid-template-columns: 260px 1fr; gap: 0; min-height: calc(100vh - 60px); }
-  aside { border-right: 1px solid var(--line); padding: 16px 20px; position: sticky; top: 0; height: 100vh; overflow-y: auto; }
-  aside h2 { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 18px 0 8px; }
-  aside h2:first-child { margin-top: 0; }
-  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
-  .chip { border: 0; background: var(--chip); color: var(--fg); padding: 4px 10px; border-radius: 999px; font-size: 13px; cursor: pointer; }
+  header a { color: var(--accent); text-decoration: none; font-size: 13px; }
+
+  /* ---------- 顶部筛选条 ---------- */
+  .toolbar { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 6px 24px 12px; font-size: 13px; color: var(--muted); border-bottom: 1px solid var(--line); }
+  .toolbar input[type=search], .toolbar select {
+    padding: 6px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); font-size: 13px; max-width: 100%;
+  }
+  .toolbar input[type=search] { width: 220px; }
+  .chips { display: flex; gap: 6px; }
+  .chip { border: 0; background: var(--chip); color: var(--fg); padding: 4px 11px; border-radius: 999px; font-size: 13px; cursor: pointer; }
   .chip.on { background: var(--chip-on); color: var(--chip-on-fg); }
-  .chip small { opacity: .6; margin-left: 4px; }
-  input[type=search] { width: 100%; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px; background: var(--card); color: var(--fg); font-size: 14px; }
-  .toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding: 12px 24px; color: var(--muted); font-size: 13px; border-bottom: 1px solid var(--line); }
-  .toolbar select { padding: 4px 8px; border-radius: 6px; border: 1px solid var(--line); background: var(--card); color: var(--fg); }
-  #list { padding: 16px 24px; display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 14px; align-content: start; }
-  .book { display: grid; grid-template-columns: 72px 1fr; gap: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px; }
-  .book img, .book .nocover { width: 72px; height: 104px; object-fit: cover; border-radius: 4px; background: var(--chip); }
+  .toolbar .grow { flex: 1; }
+
+  /* ---------- 滚轮舞台 ---------- */
+  #stage { position: relative; flex: 1; min-height: 0; }
+  /* 正中间的“选中带”，提示当前行 */
+  #stage::before {
+    content: ""; position: absolute; left: 12px; right: 12px; top: 50%; height: var(--row-h);
+    transform: translateY(-50%); background: var(--band); border-radius: 16px; pointer-events: none;
+  }
+  #scroller {
+    position: absolute; inset: 0; overflow-y: auto; overflow-x: hidden;
+    scroll-snap-type: y mandatory; overscroll-behavior: contain; scrollbar-width: none; outline: none;
+    /* 上下边缘渐隐 */
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 24%, #000 76%, transparent 100%);
+            mask-image: linear-gradient(to bottom, transparent 0, #000 24%, #000 76%, transparent 100%);
+  }
+  #scroller::-webkit-scrollbar { display: none; }
+  #rows { display: flex; flex-direction: column; gap: 10px; }
+
+  .row {
+    --d: 0; /* 到正中间的距离（0=正中，2=很远），由 JS 实时写入 */
+    height: var(--row-h); flex: none; display: grid; grid-template-columns: var(--label-w) 1fr; gap: 14px;
+    align-items: center; padding: 0 24px; scroll-snap-align: center;
+    opacity: calc(1 - var(--d) * .42);
+    filter: blur(calc(var(--d) * 2.4px));
+    transform: scale(calc(1 - var(--d) * .035)); transform-origin: left center;
+    will-change: filter, opacity, transform;
+  }
+  .label { min-width: 0; display: flex; flex-direction: column; gap: 4px; align-items: flex-start; }
+  .label .name { font-size: 20px; font-weight: 650; line-height: 1.25; overflow-wrap: anywhere; transition: color .2s; }
+  .row.active .label .name { color: var(--accent); }
+  .label .cnt { font-size: 13px; color: var(--muted); }
+  .label .rss { font-size: 12px; color: var(--accent); text-decoration: none; opacity: .85; }
+  .label .rss:hover { text-decoration: underline; }
+
+  .strip-wrap { position: relative; min-width: 0; height: 100%; }
+  .strip {
+    height: 100%; display: flex; gap: 12px; align-items: center; overflow-x: auto; overflow-y: hidden;
+    scroll-snap-type: x proximity; scroll-padding-left: 4px; padding: 0 28px 0 4px; scrollbar-width: none;
+    -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent);
+            mask-image: linear-gradient(to right, #000 calc(100% - 34px), transparent);
+  }
+  .strip::-webkit-scrollbar { display: none; }
+  .nav {
+    position: absolute; top: 50%; transform: translateY(-50%); z-index: 2; width: 34px; height: 34px; border-radius: 50%;
+    border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; font-size: 18px; line-height: 1;
+    opacity: 0; transition: opacity .15s; pointer-events: none;
+  }
+  .nav.l { left: -10px; } .nav.r { right: 4px; }
+  .row.active .strip-wrap:hover .nav, .row.active .strip-wrap:focus-within .nav { opacity: .95; pointer-events: auto; }
+  @media (hover: none) { .nav { display: none; } }
+
+  /* ---------- 一本书 ---------- */
+  .book {
+    flex: 0 0 var(--card-w); height: calc(var(--row-h) - 36px); scroll-snap-align: start;
+    display: grid; grid-template-columns: 92px 1fr; gap: 12px; padding: 12px;
+    background: var(--card); border: 1px solid var(--line); border-radius: 12px; overflow: hidden;
+  }
+  .book img, .book .nocover { width: 92px; height: 132px; object-fit: cover; border-radius: 5px; background: var(--chip); }
   .book .nocover { display: grid; place-items: center; color: var(--muted); font-size: 11px; }
-  .book h3 { margin: 0 0 2px; font-size: 15px; line-height: 1.3; }
+  .book .info { min-width: 0; display: flex; flex-direction: column; }
+  .book h3 { margin: 0; font-size: 15px; line-height: 1.3; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   .book h3 a { color: inherit; text-decoration: none; }
   .book h3 a:hover { color: var(--accent); }
-  .book .sub { color: var(--muted); font-size: 13px; }
-  .book .line { font-size: 13px; margin-top: 4px; }
-  .book .tags { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
-  .book .tag { font-size: 11px; background: var(--chip); padding: 1px 7px; border-radius: 999px; color: var(--muted); }
+  .book .sub, .book .line { font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .book .sub { color: var(--muted); }
+  .book .line { margin-top: 3px; }
   .book .new { color: var(--new); font-weight: 600; font-size: 12px; }
-  .book details { margin-top: 6px; font-size: 13px; color: var(--muted); }
-  .book summary { cursor: pointer; }
-  .empty { padding: 48px 24px; color: var(--muted); text-align: center; grid-column: 1 / -1; }
+  .book .desc { margin-top: 5px; font-size: 12.5px; color: var(--muted); line-height: 1.45; flex: 1; min-height: 0; overflow: hidden;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+  .book .tags { margin-top: 5px; display: flex; gap: 4px; overflow: hidden; white-space: nowrap; }
+  .book .tag { font-size: 11px; background: var(--chip); padding: 1px 7px; border-radius: 999px; color: var(--muted); }
+
+  .empty { padding: 48px 24px; color: var(--muted); text-align: center; position: relative; }
   @media (max-width: 760px) {
-    main { grid-template-columns: 1fr; }
-    aside { position: static; height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
+    :root { --row-h: clamp(210px, 30vh, 260px); --card-w: 84vw; }
+    header { padding: 10px 14px 4px; }
+    header h1 { font-size: 17px; }
+    /* 筛选条压成一行，可横向滑动，把竖向空间留给书 */
+    .toolbar { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 4px 14px 8px; }
+    .toolbar::-webkit-scrollbar { display: none; }
+    .toolbar > * { flex: none; }
+    .toolbar .grow { display: none; }
+    .toolbar input[type=search] { width: 150px; }
+    /* 类别名放到书条上方 */
+    .row { grid-template-columns: 1fr; grid-template-rows: auto 1fr; align-content: center; gap: 2px; padding: 0 14px; }
+    .label { flex-direction: row; align-items: baseline; gap: 10px; }
+    .label .name { font-size: 17px; }
+    .book { grid-template-columns: 76px 1fr; }
+    .book img, .book .nocover { width: 76px; height: 108px; }
   }
+  @media (prefers-reduced-motion: reduce) { .row { filter: none; } }
 </style>
 </head>
 <body>
 <header>
   <h1>New Books Tracker</h1>
   <span class="meta" id="updated">加载中…</span>
-  <a href="feed.xml">RSS</a>
-  <a href="https://github.com/" id="repo">GitHub</a>
+  <a href="feed.xml">RSS（全部）</a>
+  <a href="https://github.com/TongCHEN779/Book-Updates">GitHub</a>
 </header>
-<main>
-  <aside>
-    <h2>搜索</h2>
-    <input type="search" id="q" placeholder="书名 / 作者 / 出版社">
-    <h2>时间</h2>
-    <div class="chips" id="when"></div>
-    <h2>类别</h2>
-    <div class="chips" id="categories"></div>
-    <h2>出版社</h2>
-    <div class="chips" id="publishers"></div>
-    <h2>作者</h2>
-    <div class="chips" id="authors"></div>
-    <h2>按类别订阅 RSS</h2>
-    <div class="chips" id="feeds"></div>
-  </aside>
-  <section>
-    <div class="toolbar">
-      <span id="count"></span>
-      <span style="flex:1"></span>
-      <label>排序
-        <select id="sort">
-          <option value="first_seen">首次发现</option>
-          <option value="published">出版日期</option>
-          <option value="title">书名</option>
-        </select>
-      </label>
-    </div>
-    <div id="list"></div>
-  </section>
-</main>
+<div class="toolbar">
+  <input type="search" id="q" placeholder="搜索 书名 / 作者 / 出版社">
+  <div class="chips" id="when"></div>
+  <select id="pub"></select>
+  <select id="author"></select>
+  <label>排序
+    <select id="sort">
+      <option value="first_seen">首次发现</option>
+      <option value="published">出版日期</option>
+      <option value="title">书名</option>
+    </select>
+  </label>
+  <span class="grow"></span>
+  <span id="count"></span>
+</div>
+<div id="stage">
+  <div id="scroller" tabindex="0" aria-label="按类别浏览新书，上下滚动切换类别，左右滚动查看该类别的书">
+    <div id="rows"></div>
+  </div>
+</div>
 
 <script>
 (async function () {
   const $ = (s) => document.querySelector(s);
-  const state = { q: '', when: 7, categories: new Set(), publishers: new Set(), authors: new Set(), sort: 'first_seen' };
-  let books = [];
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
+  // 豆瓣封面有防盗链，从本站加载一律 403，所以不请求它，直接显示占位图；其他来源加载失败时也回退到占位图
+  const coverUrl = (b) => (b.cover && !/doubanio\.com/.test(b.cover) ? b.cover : '');
+  const OTHER = '\u0000other';
+
+  const state = { q: '', when: 7, pub: '', author: '', sort: 'first_seen' };
+  let books = [], feedMap = {};
 
   try {
     const res = await fetch('data/books.json?' + Date.now());
@@ -108,25 +184,23 @@
   } catch (e) {
     $('#updated').textContent = '还没有数据 —— 先跑一次 scripts/fetch_books.py 或等 Actions 定时任务';
   }
+  try { // 按类别的 RSS（feed/index.json 由脚本生成）
+    for (const f of await (await fetch('feed/index.json?' + Date.now())).json()) feedMap[f.name] = f.file;
+  } catch (e) { /* 还没生成就不显示 */ }
 
-  // ---- 筛选器：从数据里动态生成（基于 matched，即 watch.yaml 里命中的规则） ----
+  // ---------- 筛选控件 ----------
   const tally = (key) => {
     const m = new Map();
     for (const b of books) for (const v of (b.matched?.[key] || [])) m.set(v, (m.get(v) || 0) + 1);
     return [...m.entries()].sort((a, b) => b[1] - a[1]);
   };
-  const renderChips = (key) => {
-    const el = $('#' + key);
-    el.innerHTML = '';
-    for (const [v, n] of tally(key)) {
-      const c = document.createElement('button');
-      c.className = 'chip' + (state[key].has(v) ? ' on' : '');
-      c.innerHTML = `${esc(v)}<small>${n}</small>`;
-      c.onclick = () => { state[key].has(v) ? state[key].delete(v) : state[key].add(v); renderChips(key); render(); };
-      el.appendChild(c);
-    }
-    if (!el.children.length) el.innerHTML = '<span class="chip" style="opacity:.5">无</span>';
+  const fillSelect = (el, key, allLabel) => {
+    el.innerHTML = `<option value="">${allLabel}</option>` + tally(key).map(([v, n]) => `<option value="${esc(v)}">${esc(v)}（${n}）</option>`).join('');
   };
+  fillSelect($('#pub'), 'publishers', '全部出版社');
+  fillSelect($('#author'), 'authors', '全部作者');
+  if (!tally('authors').length) $('#author').hidden = true;
+
   const whenOpts = [[1, '今天'], [7, '7 天'], [30, '30 天'], [0, '全部']];
   const renderWhen = () => {
     const el = $('#when'); el.innerHTML = '';
@@ -134,83 +208,158 @@
       const c = document.createElement('button');
       c.className = 'chip' + (state.when === d ? ' on' : '');
       c.textContent = label;
-      c.onclick = () => { state.when = d; renderWhen(); render(); };
+      c.onclick = () => { state.when = d; renderWhen(); build(); };
       el.appendChild(c);
     }
   };
 
-  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-  const safeUrl = (u) => (/^https?:\/\//.test(u || '') ? esc(u) : '#');
-
-  // ---- 按类别的 RSS 订阅链接（feed/index.json 由脚本生成） ----
-  try {
-    const feeds = await (await fetch('feed/index.json?' + Date.now())).json();
-    const box = $('#feeds');
-    for (const f of feeds) {
-      const a = document.createElement('a');
-      a.className = 'chip';
-      a.href = f.file;
-      a.style.textDecoration = 'none';
-      a.innerHTML = `${esc(f.name)}<small>${f.count}</small>`;
-      box.appendChild(a);
-    }
-  } catch (e) { /* 还没生成就不显示 */ }
-
-  // 封面：豆瓣图片有防盗链，从本站加载一律 403，所以不请求它，直接显示占位图；其他来源加载失败时也回退到占位图
-  const coverUrl = (b) => (b.cover && !/doubanio\.com/.test(b.cover) ? b.cover : '');
+  // 行顺序按“全量数据”里的类别数量排，筛选时不会跳来跳去；没有类别的书归到最后一行“其他”
+  const catOrder = tally('categories').map(([k]) => k);
+  if (books.some((b) => !(b.matched?.categories || []).length)) catOrder.push(OTHER);
 
   const daysAgo = (iso) => (Date.now() - new Date(iso)) / 86400000;
   const today = new Date().toISOString().slice(0, 10);
 
-  function render() {
+  function filtered() {
     const q = state.q.trim().toLowerCase();
-    let rows = books.filter((b) => {
+    return books.filter((b) => {
       if (state.when && daysAgo(b.first_seen) > state.when) return false;
-      for (const k of ['categories', 'publishers', 'authors']) {
-        if (state[k].size && ![...state[k]].some((v) => (b.matched?.[k] || []).includes(v))) return false;
-      }
+      if (state.pub && !(b.matched?.publishers || []).includes(state.pub)) return false;
+      if (state.author && !(b.matched?.authors || []).includes(state.author)) return false;
       if (q) {
         const hay = [b.title, b.subtitle, ...(b.authors || []), b.publisher, ...(b.categories || [])].join(' ').toLowerCase();
         if (!hay.includes(q)) return false;
       }
       return true;
     });
-    rows.sort((a, b) => state.sort === 'title'
-      ? a.title.localeCompare(b.title)
-      : (b[state.sort] || '').localeCompare(a[state.sort] || ''));
+  }
+  const sorter = () => (a, b) => state.sort === 'title'
+    ? a.title.localeCompare(b.title)
+    : (b[state.sort] || '').localeCompare(a[state.sort] || '');
 
-    $('#count').textContent = `${rows.length} 本`;
-    const list = $('#list');
-    list.innerHTML = rows.length ? '' : '<div class="empty">没有符合条件的书</div>';
-    for (const b of rows) {
-      const el = document.createElement('article');
-      el.className = 'book';
-      const cu = coverUrl(b);
-      const cover = cu
-        ? `<img src="${safeUrl(cu)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',textContent:'无封面'}))">`
-        : '<div class="nocover">无封面</div>';
-      const tags = [...(b.matched?.categories || []).map((t) => `<span class="tag">#${esc(t)}</span>`),
-                    ...(b.sources || []).map((s) => `<span class="tag">${esc(s)}</span>`)].join('');
-      el.innerHTML = `
-        ${cover}
-        <div>
-          <h3><a href="${safeUrl(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a></h3>
-          ${b.subtitle ? `<div class="sub">${esc(b.subtitle)}</div>` : ''}
-          <div class="line">${esc((b.authors || []).join(', ')) || '—'}</div>
-          <div class="line sub">${esc(b.publisher) || '—'} · ${esc(b.published)}
-            ${b.first_seen === today ? '<span class="new">· 今日新增</span>' : ''}</div>
-          <div class="tags">${tags}</div>
-          ${b.description ? `<details><summary>简介</summary>${esc(b.description)}</details>` : ''}
-        </div>`;
-      list.appendChild(el);
-    }
+  function cardHTML(b) {
+    const cu = coverUrl(b);
+    const cover = cu
+      ? `<img src="${safeUrl(cu)}" alt="" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'nocover',textContent:'无封面'}))">`
+      : '<div class="nocover">无封面</div>';
+    const tags = (b.sources || []).map((s) => `<span class="tag">${esc(s)}</span>`).join('');
+    return `<article class="book">
+      ${cover}
+      <div class="info">
+        <h3><a href="${safeUrl(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a></h3>
+        ${b.subtitle ? `<div class="sub">${esc(b.subtitle)}</div>` : ''}
+        <div class="line">${esc((b.authors || []).join(', ')) || '—'}</div>
+        <div class="line sub">${esc(b.publisher) || '—'} · ${esc(b.published)}${b.first_seen === today ? ' <span class="new">· 今日新增</span>' : ''}</div>
+        ${b.description ? `<div class="desc" title="${esc(b.description)}">${esc(b.description)}</div>` : '<div class="desc"></div>'}
+        <div class="tags">${tags}</div>
+      </div>
+    </article>`;
   }
 
-  $('#q').addEventListener('input', (e) => { state.q = e.target.value; render(); });
-  $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; render(); });
+  // ---------- 构建所有横框 ----------
+  const scroller = $('#scroller'), rowsEl = $('#rows');
+  let rows = [], activeKey = null;
+
+  function build() {
+    const list = filtered();
+    const groups = new Map();
+    const push = (k, b) => { if (!groups.has(k)) groups.set(k, []); groups.get(k).push(b); };
+    for (const b of list) {
+      const cats = b.matched?.categories || [];
+      if (!cats.length) push(OTHER, b); else cats.forEach((c) => push(c, b));
+    }
+    $('#count').textContent = `${list.length} 本`;
+    rowsEl.innerHTML = '';
+    rows = [];
+    const keys = catOrder.filter((k) => groups.has(k));
+    if (!keys.length) {
+      rowsEl.innerHTML = '<div class="empty">没有符合条件的书</div>';
+      scroller.style.paddingBlock = '0';
+      return;
+    }
+    const cmp = sorter();
+    for (const k of keys) {
+      const items = groups.get(k).sort(cmp);
+      const isOther = k === OTHER;
+      const el = document.createElement('section');
+      el.className = 'row';
+      el.dataset.key = k;
+      el.innerHTML = `
+        <div class="label">
+          <div class="name">${isOther ? '其他' : esc(k)}</div>
+          <div class="cnt">${isOther ? '按出版社 / 作者命中 · ' : ''}${items.length} 本</div>
+          ${!isOther && feedMap[k] ? `<a class="rss" href="${esc(feedMap[k])}" title="订阅这个类别的 RSS">RSS</a>` : ''}
+        </div>
+        <div class="strip-wrap">
+          <button class="nav l" aria-label="向左">‹</button>
+          <div class="strip">${items.map(cardHTML).join('')}</div>
+          <button class="nav r" aria-label="向右">›</button>
+        </div>`;
+      const strip = el.querySelector('.strip');
+      el.querySelector('.nav.l').onclick = () => strip.scrollBy({ left: -strip.clientWidth * 0.8, behavior: 'smooth' });
+      el.querySelector('.nav.r').onclick = () => strip.scrollBy({ left: strip.clientWidth * 0.8, behavior: 'smooth' });
+      rowsEl.appendChild(el);
+      rows.push(el);
+    }
+    layout();
+    const target = rows.find((r) => r.dataset.key === activeKey) || rows[0];
+    target.scrollIntoView({ block: 'center', behavior: 'instant' });
+    update();
+  }
+
+  // 上下留白，让第一行和最后一行也能滚到正中间
+  function layout() {
+    if (!rows.length) return;
+    const pad = Math.max(0, (scroller.clientHeight - rows[0].offsetHeight) / 2);
+    scroller.style.paddingBlock = pad + 'px';
+  }
+
+  // 根据每一行到正中间的距离，更新清晰 / 模糊程度
+  let ticking = false;
+  function update() {
+    ticking = false;
+    if (!rows.length) return;
+    const sr = scroller.getBoundingClientRect();
+    const cy = sr.top + sr.height / 2;
+    const pitch = rows.length > 1 ? rows[1].offsetTop - rows[0].offsetTop : rows[0].offsetHeight;
+    const ds = rows.map((r) => {
+      const b = r.getBoundingClientRect();
+      return Math.abs(b.top + b.height / 2 - cy) / pitch;
+    });
+    const best = ds.indexOf(Math.min(...ds));
+    rows.forEach((r, i) => {
+      r.style.setProperty('--d', (Math.round(Math.min(2, ds[i]) * 20) / 20).toString());
+      r.classList.toggle('active', i === best);
+    });
+    activeKey = rows[best].dataset.key;
+  }
+  scroller.addEventListener('scroll', () => { if (!ticking) { ticking = true; requestAnimationFrame(update); } }, { passive: true });
+  addEventListener('resize', () => { layout(); update(); });
+
+  // 点击不在正中间的行：先把它滚到中间，不直接跳走
+  rowsEl.addEventListener('click', (e) => {
+    const row = e.target.closest('.row');
+    if (row && !row.classList.contains('active')) {
+      e.preventDefault(); e.stopPropagation();
+      row.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    }
+  }, true);
+
+  // 键盘：上下键 / PageUp / PageDown 切换行
+  scroller.addEventListener('keydown', (e) => {
+    const step = { ArrowDown: 1, PageDown: 1, ArrowUp: -1, PageUp: -1 }[e.key];
+    if (!step || !rows.length) return;
+    e.preventDefault();
+    const i = Math.max(0, Math.min(rows.length - 1, rows.findIndex((r) => r.classList.contains('active')) + step));
+    rows[i].scrollIntoView({ block: 'center', behavior: 'smooth' });
+  });
+
+  $('#q').addEventListener('input', (e) => { state.q = e.target.value; build(); });
+  $('#pub').addEventListener('change', (e) => { state.pub = e.target.value; build(); });
+  $('#author').addEventListener('change', (e) => { state.author = e.target.value; build(); });
+  $('#sort').addEventListener('change', (e) => { state.sort = e.target.value; build(); });
   renderWhen();
-  ['categories', 'publishers', 'authors'].forEach(renderChips);
-  render();
+  build();
 })();
 </script>
 </body>
