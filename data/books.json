@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-10T01:39:17+00:00",
- "count": 332,
+ "updated": "2026-11-10T23:31:02+00:00",
+ "count": 347,
  "books": [
   {
    "id": "h:c12ebdb2ab8542f3",
@@ -19,6 +19,35 @@
    "description": "",
    "language": "zh",
    "url": "https://book.douban.com/subject/39000303/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:7d5d7b932ba5aa83",
+   "title": "天地万物均可为剑：金庸的世界与江湖中人赖以生存的隐喻",
+   "subtitle": "",
+   "authors": [
+    "巫怀宇"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-21",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35662858.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38608107/",
    "sources": [
     "douban"
    ],
@@ -220,6 +249,348 @@
    "description": "",
    "language": "zh",
    "url": "https://book.douban.com/subject/38542213/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:8fda4a7c082a218e",
+   "title": "个体生活：一项哲学挑战",
+   "subtitle": "",
+   "authors": [
+    "吕迪格尔·萨弗兰斯基"
+   ],
+   "publisher": "商务印书馆",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35639373.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38596791/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "商务印书馆"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:426fa5233917c3f9",
+   "title": "一块滚石",
+   "subtitle": "",
+   "authors": [
+    "小海"
+   ],
+   "publisher": "上海译文出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35653880.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38651064/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:b1ef8c5a2a75da44",
+   "title": "经学导论",
+   "subtitle": "",
+   "authors": [
+    "马楠"
+   ],
+   "publisher": "中华书局",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35671076.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38521447/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中华书局"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:bd17566830569b7d",
+   "title": "随风远走",
+   "subtitle": "",
+   "authors": [
+    "阿来"
+   ],
+   "publisher": "江苏凤凰文艺出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35668154.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38999511/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:953abc652723a831",
+   "title": "白居易与柳宗元：混沌尘世 生命赞歌",
+   "subtitle": "",
+   "authors": [
+    "下定雅弘"
+   ],
+   "publisher": "江苏人民出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35680841.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38218975/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:7c918c2414b4f019",
+   "title": "诡计总导演",
+   "subtitle": "",
+   "authors": [
+    "片冈翔"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35668179.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38490281/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:9918f2d9be9a9833",
+   "title": "明焰前身：江南七怪谈",
+   "subtitle": "",
+   "authors": [
+    "林戈声"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35656965.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38626175/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:dd5c0e1285254917",
+   "title": "穷亲戚",
+   "subtitle": "",
+   "authors": [
+    "柳德米拉·乌利茨卡娅"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35646548.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38644894/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:13d491cdf8377b21",
+   "title": "变装",
+   "subtitle": "",
+   "authors": [
+    "米尔恰·克尔特雷斯库"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35610573.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37497665/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:b61f95874bf5dca4",
+   "title": "神圣的夜晚",
+   "subtitle": "",
+   "authors": [
+    "塔哈尔·本·杰伦"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35609150.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37180711/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:714209103250d1d4",
+   "title": "索涅奇卡",
+   "subtitle": "",
+   "authors": [
+    "柳德米拉·乌利茨卡娅"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35646547.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38589669/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:53b60f11afba3c3e",
+   "title": "雾港水手",
+   "subtitle": "",
+   "authors": [
+    "让·热内"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35629980.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38551832/",
    "sources": [
     "douban"
    ],
@@ -634,6 +1005,68 @@
      "艺术"
     ],
     "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:b3e9fac823a508db",
+   "title": "鹿特丹的伊拉斯谟：辉煌与悲情",
+   "subtitle": "",
+   "authors": [
+    "斯蒂芬·茨威格"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35609046.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38521381/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:c41439a9f64635ab",
+   "title": "前方有我青铜茶饮",
+   "subtitle": "",
+   "authors": [
+    "索南才让"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-08-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35557674.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38546853/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "人民文学出版社"
+    ],
     "authors": []
    },
    "first_seen": "2026-11-10"
