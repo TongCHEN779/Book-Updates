@@ -1,7 +1,643 @@
 {
- "updated": "2026-11-09T12:14:49+00:00",
- "count": 310,
+ "updated": "2026-11-10T01:39:17+00:00",
+ "count": 332,
  "books": [
+  {
+   "id": "h:c12ebdb2ab8542f3",
+   "title": "未失之物的经济学",
+   "subtitle": "",
+   "authors": [
+    "安妮·卡森"
+   ],
+   "publisher": "四川人民出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35672456.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/39000303/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:83a8f4adffb3eb1b",
+   "title": "生于女人：母亲身份作为经验与规制",
+   "subtitle": "",
+   "authors": [
+    "艾德里安·里奇"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35609118.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38617182/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "人民文学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:504a10c78bfe536b",
+   "title": "自由是一种没治的病",
+   "subtitle": "",
+   "authors": [
+    "斯拉沃热·齐泽克"
+   ],
+   "publisher": "中信出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35642824.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37178823/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:ad988aa329274d46",
+   "title": "斩生活记",
+   "subtitle": "",
+   "authors": [
+    "殳俏"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35658327.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38935273/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:74d5f3cc23c34312",
+   "title": "数种知觉",
+   "subtitle": "",
+   "authors": [
+    "安吉拉·卡特"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35600783.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38561741/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:ebaf3d539244dfbf",
+   "title": "海浪",
+   "subtitle": "",
+   "authors": [
+    "弗吉尼亚·伍尔夫"
+   ],
+   "publisher": "文汇出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35635094.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38632519/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:956e79e14774da48",
+   "title": "越界",
+   "subtitle": "",
+   "authors": [
+    "路易丝·肯尼迪"
+   ],
+   "publisher": "中信出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35630172.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38615078/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "中信出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:0c24004a172575f5",
+   "title": "女孩和女人的生活",
+   "subtitle": "",
+   "authors": [
+    "艾丽丝·门罗"
+   ],
+   "publisher": "北京十月文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35676751.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38542213/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:d1c47c05f04c0966",
+   "title": "紫马",
+   "subtitle": "",
+   "authors": [
+    "李世成"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-23",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35619877.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38649220/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:84bd9b83a99c2a94",
+   "title": "中国现代国家的起源",
+   "subtitle": "",
+   "authors": [
+    "孔飞力"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35596586.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38464900/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:db30367289cb887b",
+   "title": "西方文化中的神秘学：反规范性与被拒斥的知识",
+   "subtitle": "",
+   "authors": [
+    "乌特·哈内赫拉夫"
+   ],
+   "publisher": "商务印书馆",
+   "categories": [],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35673953.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38495046/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "商务印书馆"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:adaac3cf1f2bc18b",
+   "title": "从问责到自省：德国战后自传文学中的记忆研究",
+   "subtitle": "",
+   "authors": [
+    "刘海婷"
+   ],
+   "publisher": "四川人民出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35643181.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38911578/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:862775c477aca909",
+   "title": "总有人留在昨天：古代书画中未完成的自由、爱情和白日梦",
+   "subtitle": "",
+   "authors": [
+    "北溟鱼"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35653523.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38922959/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:7e7bea6bfa57ae43",
+   "title": "诗词格律：精装典藏纪念版",
+   "subtitle": "",
+   "authors": [
+    "王力"
+   ],
+   "publisher": "岳麓书社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35583721.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38567112/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:217d4a9365bbc09f",
+   "title": "俄耳甫斯歌集",
+   "subtitle": "",
+   "authors": [
+    "迪诺·坎帕纳"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35602843.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38591491/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "人民文学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:3eab0c013bf9eee0",
+   "title": "真实的事物：对文学形式的思考",
+   "subtitle": "",
+   "authors": [
+    "特里·伊格尔顿"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35600844.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38553866/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:08d63725dbd9dbe1",
+   "title": "谎言后备厢",
+   "subtitle": "",
+   "authors": [
+    "刘阳子"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35608490.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37408589/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "人民文学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:fb8e703c8354b011",
+   "title": "妥协",
+   "subtitle": "",
+   "authors": [
+    "谢尔盖·多甫拉托夫"
+   ],
+   "publisher": "作家出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35617738.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38560071/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:b9b60fb384d0a0c6",
+   "title": "山月记",
+   "subtitle": "",
+   "authors": [
+    "中岛敦"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35639815.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38642056/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:eb2c583ea1d64c39",
+   "title": "机器人大师",
+   "subtitle": "",
+   "authors": [
+    "斯塔尼斯瓦夫·莱姆"
+   ],
+   "publisher": "浙江文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35620120.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38547007/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:4afbe94df919e0b2",
+   "title": "真探格尼系列1：读⼼谜咒",
+   "subtitle": "",
+   "authors": [
+    "约翰·弗登"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35615565.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37648915/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
+  {
+   "id": "h:0c4cccfe250f1189",
+   "title": "场景设定创意宝库：故事舞台之都市场所，写出现实的细节",
+   "subtitle": "",
+   "authors": [
+    "［加］安杰拉·阿克曼"
+   ],
+   "publisher": "中国友谊出版公司",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35602166.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38613840/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-10"
+  },
   {
    "id": "h:c6ebd92d3f2d397a",
    "title": "即兴的艺术：爵士乐与现代文化",
