@@ -1,7 +1,391 @@
 {
- "updated": "2026-11-10T23:31:02+00:00",
- "count": 347,
+ "updated": "2026-11-12T00:50:47+00:00",
+ "count": 360,
  "books": [
+  {
+   "id": "isbn:9788118412403",
+   "title": "Invisible to Prominent",
+   "subtitle": "How to get found on Google, recommended by ChatGPT and chosen by buyers, wherever they look",
+   "authors": [
+    "Arun Agrawal"
+   ],
+   "publisher": "EbizIndia Consulting Pvt. Ltd.",
+   "categories": [
+    "Search engine optimization",
+    "Internet marketing",
+    "Small business marketing",
+    "Artificial intelligence",
+    "Web sites"
+   ],
+   "published": "2026-11-11",
+   "isbn13": "9788118412403",
+   "cover": "https://covers.openlibrary.org/b/id/15274679-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46217564W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:6c9b2f026db2e63f",
+   "title": "杜甫的历史图景：战乱",
+   "subtitle": "",
+   "authors": [
+    "王炳文"
+   ],
+   "publisher": "岳麓书社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35671086.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/39004007/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:1e248f192d859e46",
+   "title": "方山为城：南宋巴蜀抗元记",
+   "subtitle": "",
+   "authors": [
+    "萧易"
+   ],
+   "publisher": "中信出版集团",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35662883.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38631211/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版集团"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:40dd6cac965eae47",
+   "title": "乔治·奥威尔：生平与书信、传奇与遗产",
+   "subtitle": "",
+   "authors": [
+    "约翰·罗登"
+   ],
+   "publisher": "四川人民出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35619523.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38501912/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:96592944d8371b73",
+   "title": "水泥地",
+   "subtitle": "",
+   "authors": [
+    "托马斯·伯恩哈德"
+   ],
+   "publisher": "上海人民出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35623486.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/36603752/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:cc98d5afdf05a197",
+   "title": "永恒森林之狼",
+   "subtitle": "",
+   "authors": [
+    "卡尔·奥韦·克瑙斯高"
+   ],
+   "publisher": "上海三联书店",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35660764.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38560469/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:f09a5dde38188625",
+   "title": "历史系男生",
+   "subtitle": "",
+   "authors": [
+    "阿兰·本奈特"
+   ],
+   "publisher": "文汇出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35658964.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38395089/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:f4c283b06be371d7",
+   "title": "那刺眼的黑暗",
+   "subtitle": "",
+   "authors": [
+    "塔哈尔·本·杰伦"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35609146.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37180720/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:cf7b6af196307da5",
+   "title": "第一步，把理智切碎",
+   "subtitle": "",
+   "authors": [
+    "浅仓秋成"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35667013.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38494106/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:5c90f00c37efba3a",
+   "title": "臺北故事",
+   "subtitle": "",
+   "authors": [
+    "匡靈秀"
+   ],
+   "publisher": "臉譜",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-10",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35602673.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38544103/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:5c4bac5722127e6b",
+   "title": "“批评”的想象力：大江健三郎、柄谷行人与“政治的季节”",
+   "subtitle": "",
+   "authors": [
+    "高华鑫"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35658810.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38571718/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:834bd3385606b644",
+   "title": "绿色密封蜡",
+   "subtitle": "",
+   "authors": [
+    "柯莱特"
+   ],
+   "publisher": "海峡文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35616557.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38612696/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "isbn:9786250050248",
+   "title": "Panel Ne Diyor, Kasa Ne Diyor?",
+   "subtitle": "",
+   "authors": [
+    "Adem Demir"
+   ],
+   "publisher": "Adem Demir",
+   "categories": [
+    "Performance marketing",
+    "Digital marketing",
+    "Online advertising",
+    "Advertising",
+    "Marketing analytics",
+    "Return on investment",
+    "Advertising attribution",
+    "Incrementality"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9786250050248",
+   "cover": "https://covers.openlibrary.org/b/id/15272014-M.jpg",
+   "description": "",
+   "language": "tur",
+   "url": "https://openlibrary.org/works/OL46152111W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
   {
    "id": "h:c12ebdb2ab8542f3",
    "title": "未失之物的经济学",
@@ -2120,7 +2504,8 @@
    ],
    "publisher": "人民文学出版社",
    "categories": [
-    "艺术设计"
+    "艺术设计",
+    "文学"
    ],
    "published": "2026-10-01",
    "isbn13": null,
@@ -2133,7 +2518,8 @@
    ],
    "matched": {
     "categories": [
-     "艺术"
+     "艺术",
+     "文学"
     ],
     "publishers": [
      "人民文学出版社"

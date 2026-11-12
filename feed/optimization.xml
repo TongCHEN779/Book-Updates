@@ -4,7 +4,21 @@
   <title>New Books · optimization</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Tue, 10 Nov 2026 23:31:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 00:50:47 +0000</lastBuildDate>
+  <item>
+    <title>Invisible to Prominent</title>
+    <link>https://openlibrary.org/works/OL46217564W</link>
+    <guid isPermaLink="false">isbn:9788118412403</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
+  </item>
+  <item>
+    <title>Panel Ne Diyor, Kasa Ne Diyor?</title>
+    <link>https://openlibrary.org/works/OL46152111W</link>
+    <guid isPermaLink="false">isbn:9786250050248</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Adem Demir · Adem Demir · 2026-01-01]]></description>
+  </item>
   <item>
     <title>Cited or Silent</title>
     <link>https://openlibrary.org/works/OL46021632W</link>

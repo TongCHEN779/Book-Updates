@@ -4,7 +4,98 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Tue, 10 Nov 2026 23:31:02 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 00:50:47 +0000</lastBuildDate>
+  <item>
+    <title>Invisible to Prominent</title>
+    <link>https://openlibrary.org/works/OL46217564W</link>
+    <guid isPermaLink="false">isbn:9788118412403</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
+  </item>
+  <item>
+    <title>杜甫的历史图景：战乱</title>
+    <link>https://book.douban.com/subject/39004007/</link>
+    <guid isPermaLink="false">h:6c9b2f026db2e63f</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[王炳文 · 岳麓书社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>方山为城：南宋巴蜀抗元记</title>
+    <link>https://book.douban.com/subject/38631211/</link>
+    <guid isPermaLink="false">h:1e248f192d859e46</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[萧易 · 中信出版集团 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>乔治·奥威尔：生平与书信、传奇与遗产</title>
+    <link>https://book.douban.com/subject/38501912/</link>
+    <guid isPermaLink="false">h:40dd6cac965eae47</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·罗登 · 四川人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>水泥地</title>
+    <link>https://book.douban.com/subject/36603752/</link>
+    <guid isPermaLink="false">h:96592944d8371b73</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[托马斯·伯恩哈德 · 上海人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>永恒森林之狼</title>
+    <link>https://book.douban.com/subject/38560469/</link>
+    <guid isPermaLink="false">h:cc98d5afdf05a197</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[卡尔·奥韦·克瑙斯高 · 上海三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>历史系男生</title>
+    <link>https://book.douban.com/subject/38395089/</link>
+    <guid isPermaLink="false">h:f09a5dde38188625</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[阿兰·本奈特 · 文汇出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>那刺眼的黑暗</title>
+    <link>https://book.douban.com/subject/37180720/</link>
+    <guid isPermaLink="false">h:f4c283b06be371d7</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[塔哈尔·本·杰伦 · 湖南文艺出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>第一步，把理智切碎</title>
+    <link>https://book.douban.com/subject/38494106/</link>
+    <guid isPermaLink="false">h:cf7b6af196307da5</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[浅仓秋成 · 新星出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>臺北故事</title>
+    <link>https://book.douban.com/subject/38544103/</link>
+    <guid isPermaLink="false">h:5c90f00c37efba3a</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[匡靈秀 · 臉譜 · 2026-09-10]]></description>
+  </item>
+  <item>
+    <title>“批评”的想象力：大江健三郎、柄谷行人与“政治的季节”</title>
+    <link>https://book.douban.com/subject/38571718/</link>
+    <guid isPermaLink="false">h:5c4bac5722127e6b</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[高华鑫 · 生活·读书·新知三联书店 · 2026-09-01]]></description>
+  </item>
+  <item>
+    <title>绿色密封蜡</title>
+    <link>https://book.douban.com/subject/38612696/</link>
+    <guid isPermaLink="false">h:834bd3385606b644</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[柯莱特 · 海峡文艺出版社 · 2026-09-01]]></description>
+  </item>
+  <item>
+    <title>Panel Ne Diyor, Kasa Ne Diyor?</title>
+    <link>https://openlibrary.org/works/OL46152111W</link>
+    <guid isPermaLink="false">isbn:9786250050248</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Adem Demir · Adem Demir · 2026-01-01]]></description>
+  </item>
   <item>
     <title>未失之物的经济学</title>
     <link>https://book.douban.com/subject/39000303/</link>
@@ -263,97 +354,6 @@
     <guid isPermaLink="false">h:c41439a9f64635ab</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[索南才让 · 人民文学出版社 · 2026-08-01]]></description>
-  </item>
-  <item>
-    <title>即兴的艺术：爵士乐与现代文化</title>
-    <link>https://book.douban.com/subject/38676713/</link>
-    <guid isPermaLink="false">h:c6ebd92d3f2d397a</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[泰德·乔亚 · 商务印书馆 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>一个从未存在的帝国</title>
-    <link>https://book.douban.com/subject/38618588/</link>
-    <guid isPermaLink="false">h:5200390c60ca848c</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[安赫莉卡·戈罗迪舍 · 北京联合出版公司 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>乡愁</title>
-    <link>https://book.douban.com/subject/38595087/</link>
-    <guid isPermaLink="false">h:4ac6a5b3c5b77d58</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[赫尔曼·黑塞 · 文汇出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>一臭万年：发酵缸中的文明史</title>
-    <link>https://book.douban.com/subject/38174656/</link>
-    <guid isPermaLink="false">h:5bffd58e4b928ae4</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[曹雨 · 中信出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>破邪论校注 辩正论校注</title>
-    <link>https://book.douban.com/subject/36828363/</link>
-    <guid isPermaLink="false">h:b2d73b503ad23538</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[唐·法琳 · 中华书局 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>威尼斯的石头：基础，大海的故事，衰落</title>
-    <link>https://book.douban.com/subject/37470541/</link>
-    <guid isPermaLink="false">h:8b0cb6c928344114</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·罗斯金 · 上海三联书店 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>Peer Production</title>
-    <link>https://openlibrary.org/works/OL46182173W</link>
-    <guid isPermaLink="false">isbn:9780262055291</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Benjamin Mako Hill, Christian Pentzold, Aaron Shaw · The MIT Press · 2026-09-22]]></description>
-  </item>
-  <item>
-    <title>Generative AI on Kubernetes</title>
-    <link>https://openlibrary.org/works/OL46182194W</link>
-    <guid isPermaLink="false">isbn:9781098171919</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Roland Huß, Daniele Zonca · O'Reilly Media · 2026-04-07]]></description>
-  </item>
-  <item>
-    <title>Cilium</title>
-    <link>https://openlibrary.org/works/OL46182196W</link>
-    <guid isPermaLink="false">isbn:9798341622999</guid>
-    <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Nico Vibert, Filip Nikolic, James Laverack · O'Reilly Media · 2026-03-31]]></description>
-  </item>
-  <item>
-    <title>万王之王：伊朗1979</title>
-    <link>https://book.douban.com/subject/38574975/</link>
-    <guid isPermaLink="false">h:81a6ca0eab91c87c</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[雷沙德·卡普希钦斯基 · 民主与建设出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>我的老台北</title>
-    <link>https://book.douban.com/subject/38594734/</link>
-    <guid isPermaLink="false">h:b860eb5bc384ce21</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[张大春 · 台海出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>文学理论</title>
-    <link>https://book.douban.com/subject/38414683/</link>
-    <guid isPermaLink="false">h:284c197fe642ae33</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[勒内·韦勒克 · 北京联合出版公司 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>素水</title>
-    <link>https://book.douban.com/subject/37434517/</link>
-    <guid isPermaLink="false">h:fa004b474553a893</guid>
-    <pubDate>Sun, 08 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[安妮·卡森 · 花城出版社 · 2026-11-01]]></description>
   </item>
 </channel>
 </rss>
