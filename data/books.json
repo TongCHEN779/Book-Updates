@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-12T00:50:47+00:00",
- "count": 360,
+ "updated": "2026-11-12T23:43:24+00:00",
+ "count": 371,
  "books": [
   {
    "id": "isbn:9788118412403",
@@ -58,6 +58,93 @@
    "matched": {
     "categories": [
      "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:41a9fa55e520224d",
+   "title": "摩托日记",
+   "subtitle": "",
+   "authors": [
+    "切·格瓦拉"
+   ],
+   "publisher": "民主与建设出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35654663.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38642773/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:b5802b91ef824054",
+   "title": "盖特露德",
+   "subtitle": "",
+   "authors": [
+    "赫尔曼·黑塞"
+   ],
+   "publisher": "岳麓书社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35664190.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38926280/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:a1d925e25ae9c27b",
+   "title": "理解人体结构I：表现人体形态、功能及动作的实用解剖书",
+   "subtitle": "",
+   "authors": [
+    "瓦莱丽·L. 温斯洛"
+   ],
+   "publisher": "湖南美术出版社",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35674037.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/39007757/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
     ],
     "publishers": [],
     "authors": []
@@ -266,6 +353,203 @@
    "first_seen": "2026-11-12"
   },
   {
+   "id": "h:1f909f3711858dcc",
+   "title": "世界时代体系：1827-1828年慕尼黑讲座",
+   "subtitle": "",
+   "authors": [
+    "谢林"
+   ],
+   "publisher": "商务印书馆",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35682056.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38459355/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "商务印书馆"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:d08c7ff274bdc8c3",
+   "title": "黑暗之旅",
+   "subtitle": "",
+   "authors": [
+    "约翰·道格拉斯"
+   ],
+   "publisher": "上海译文出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35655745.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37815726/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:c684630873d4c76e",
+   "title": "《孝经》与儒学两千年",
+   "subtitle": "",
+   "authors": [
+    "乔秀岩"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35675250.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38521450/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:34ec370547070570",
+   "title": "认识心灵：从绝望到希望的灵魂解剖",
+   "subtitle": "",
+   "authors": [
+    "加文·弗朗西斯（Gavin Francis）"
+   ],
+   "publisher": "中信出版集团",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35653961.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38923965/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版集团"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:57970286806364de",
+   "title": "都是普鲁斯特的错",
+   "subtitle": "",
+   "authors": [
+    "路易吉·马莱巴"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35680807.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38651061/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "人民文学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:8e4c48540fd1112f",
+   "title": "情有可原",
+   "subtitle": "",
+   "authors": [
+    "乔伊斯·卡罗尔·欧茨"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35645394.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37938905/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "h:d15667c333398777",
+   "title": "塞林格",
+   "subtitle": "",
+   "authors": [
+    "大卫·希尔兹"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-30",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35654326.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/26915350/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
    "id": "h:5c90f00c37efba3a",
    "title": "臺北故事",
    "subtitle": "",
@@ -382,6 +666,35 @@
      "optimization"
     ],
     "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-12"
+  },
+  {
+   "id": "isbn:9780262054010",
+   "title": "The Book of Infinity",
+   "subtitle": "",
+   "authors": [],
+   "publisher": "MIT Press",
+   "categories": [
+    "Mathematics",
+    "infinity",
+    "Paradox"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9780262054010",
+   "cover": "https://covers.openlibrary.org/b/id/15275333-M.jpg",
+   "description": "",
+   "language": null,
+   "url": "https://openlibrary.org/works/OL46264211W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
     "authors": []
    },
    "first_seen": "2026-11-12"

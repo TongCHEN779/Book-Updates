@@ -4,7 +4,7 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 12 Nov 2026 00:50:47 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 23:43:24 +0000</lastBuildDate>
   <item>
     <title>Invisible to Prominent</title>
     <link>https://openlibrary.org/works/OL46217564W</link>
@@ -18,6 +18,27 @@
     <guid isPermaLink="false">h:6c9b2f026db2e63f</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[王炳文 · 岳麓书社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>摩托日记</title>
+    <link>https://book.douban.com/subject/38642773/</link>
+    <guid isPermaLink="false">h:41a9fa55e520224d</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[切·格瓦拉 · 民主与建设出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>盖特露德</title>
+    <link>https://book.douban.com/subject/38926280/</link>
+    <guid isPermaLink="false">h:b5802b91ef824054</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[赫尔曼·黑塞 · 岳麓书社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>理解人体结构I：表现人体形态、功能及动作的实用解剖书</title>
+    <link>https://book.douban.com/subject/39007757/</link>
+    <guid isPermaLink="false">h:a1d925e25ae9c27b</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[瓦莱丽·L. 温斯洛 · 湖南美术出版社 · 2026-11-01]]></description>
   </item>
   <item>
     <title>方山为城：南宋巴蜀抗元记</title>
@@ -69,6 +90,55 @@
     <description><![CDATA[浅仓秋成 · 新星出版社 · 2026-10-01]]></description>
   </item>
   <item>
+    <title>世界时代体系：1827-1828年慕尼黑讲座</title>
+    <link>https://book.douban.com/subject/38459355/</link>
+    <guid isPermaLink="false">h:1f909f3711858dcc</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[谢林 · 商务印书馆 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>黑暗之旅</title>
+    <link>https://book.douban.com/subject/37815726/</link>
+    <guid isPermaLink="false">h:d08c7ff274bdc8c3</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·道格拉斯 · 上海译文出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>《孝经》与儒学两千年</title>
+    <link>https://book.douban.com/subject/38521450/</link>
+    <guid isPermaLink="false">h:c684630873d4c76e</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[乔秀岩 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>认识心灵：从绝望到希望的灵魂解剖</title>
+    <link>https://book.douban.com/subject/38923965/</link>
+    <guid isPermaLink="false">h:34ec370547070570</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[加文·弗朗西斯（Gavin Francis） · 中信出版集团 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>都是普鲁斯特的错</title>
+    <link>https://book.douban.com/subject/38651061/</link>
+    <guid isPermaLink="false">h:57970286806364de</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[路易吉·马莱巴 · 人民文学出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>情有可原</title>
+    <link>https://book.douban.com/subject/37938905/</link>
+    <guid isPermaLink="false">h:8e4c48540fd1112f</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>塞林格</title>
+    <link>https://book.douban.com/subject/26915350/</link>
+    <guid isPermaLink="false">h:d15667c333398777</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[大卫·希尔兹 · 新星出版社 · 2026-09-30]]></description>
+  </item>
+  <item>
     <title>臺北故事</title>
     <link>https://book.douban.com/subject/38544103/</link>
     <guid isPermaLink="false">h:5c90f00c37efba3a</guid>
@@ -95,6 +165,13 @@
     <guid isPermaLink="false">isbn:9786250050248</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[Adem Demir · Adem Demir · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>The Book of Infinity</title>
+    <link>https://openlibrary.org/works/OL46264211W</link>
+    <guid isPermaLink="false">isbn:9780262054010</guid>
+    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[未知作者 · MIT Press · 2026-01-01]]></description>
   </item>
   <item>
     <title>未失之物的经济学</title>
@@ -277,83 +354,6 @@
     <guid isPermaLink="false">h:862775c477aca909</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[北溟鱼 · 北京联合出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>诗词格律：精装典藏纪念版</title>
-    <link>https://book.douban.com/subject/38567112/</link>
-    <guid isPermaLink="false">h:7e7bea6bfa57ae43</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[王力 · 岳麓书社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>俄耳甫斯歌集</title>
-    <link>https://book.douban.com/subject/38591491/</link>
-    <guid isPermaLink="false">h:217d4a9365bbc09f</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[迪诺·坎帕纳 · 人民文学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>真实的事物：对文学形式的思考</title>
-    <link>https://book.douban.com/subject/38553866/</link>
-    <guid isPermaLink="false">h:3eab0c013bf9eee0</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[特里·伊格尔顿 · 广西师范大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>谎言后备厢</title>
-    <link>https://book.douban.com/subject/37408589/</link>
-    <guid isPermaLink="false">h:08d63725dbd9dbe1</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[刘阳子 · 人民文学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>妥协</title>
-    <link>https://book.douban.com/subject/38560071/</link>
-    <guid isPermaLink="false">h:fb8e703c8354b011</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[谢尔盖·多甫拉托夫 · 作家出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>山月记</title>
-    <link>https://book.douban.com/subject/38642056/</link>
-    <guid isPermaLink="false">h:b9b60fb384d0a0c6</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[中岛敦 · 广西师范大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>机器人大师</title>
-    <link>https://book.douban.com/subject/38547007/</link>
-    <guid isPermaLink="false">h:eb2c583ea1d64c39</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[斯塔尼斯瓦夫·莱姆 · 浙江文艺出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>真探格尼系列1：读⼼谜咒</title>
-    <link>https://book.douban.com/subject/37648915/</link>
-    <guid isPermaLink="false">h:4afbe94df919e0b2</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·弗登 · 北京联合出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>场景设定创意宝库：故事舞台之都市场所，写出现实的细节</title>
-    <link>https://book.douban.com/subject/38613840/</link>
-    <guid isPermaLink="false">h:0c4cccfe250f1189</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[［加］安杰拉·阿克曼 · 中国友谊出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>鹿特丹的伊拉斯谟：辉煌与悲情</title>
-    <link>https://book.douban.com/subject/38521381/</link>
-    <guid isPermaLink="false">h:b3e9fac823a508db</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[斯蒂芬·茨威格 · 生活·读书·新知三联书店 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>前方有我青铜茶饮</title>
-    <link>https://book.douban.com/subject/38546853/</link>
-    <guid isPermaLink="false">h:c41439a9f64635ab</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[索南才让 · 人民文学出版社 · 2026-08-01]]></description>
   </item>
 </channel>
 </rss>
