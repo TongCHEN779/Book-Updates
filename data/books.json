@@ -1,7 +1,272 @@
 {
- "updated": "2026-11-12T23:43:24+00:00",
- "count": 371,
+ "updated": "2026-11-13T23:40:59+00:00",
+ "count": 380,
  "books": [
+  {
+   "id": "h:ac8737d20071f12e",
+   "title": "漂浮",
+   "subtitle": "",
+   "authors": [
+    "安妮·卡森"
+   ],
+   "publisher": "花城出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35696282.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37488725/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:9fca192dbe017505",
+   "title": "一生一敦煌：常沙娜人生自述",
+   "subtitle": "",
+   "authors": [
+    "常沙娜"
+   ],
+   "publisher": "中信出版集团",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-10-12",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35659452.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38938095/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [
+     "中信出版集团"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:b6ffca45dbac3ed5",
+   "title": "相对于国家的社会：政治人类学研究",
+   "subtitle": "",
+   "authors": [
+    "皮埃尔·克拉斯特"
+   ],
+   "publisher": "商务印书馆",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35688818.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38395837/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "商务印书馆"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:ee1f6a626da2a633",
+   "title": "她者：杜甫及唐代诗人的性别世界",
+   "subtitle": "",
+   "authors": [
+    "欧丽娟"
+   ],
+   "publisher": "北京大学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35664341.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38562852/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "北京大学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:a537ea8c4adf0cd1",
+   "title": "在河畔",
+   "subtitle": "",
+   "authors": [
+    "乔伊斯·卡罗尔·欧茨"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35646035.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38561740/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:501b94a65af92a4a",
+   "title": "乌云之下",
+   "subtitle": "",
+   "authors": [
+    "赵婧怡"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35659677.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38369053/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:b20c167838c4f811",
+   "title": "暴君班德拉斯",
+   "subtitle": "",
+   "authors": [
+    "巴列-因克兰"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35684288.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38615284/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "人民文学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:80b60ac7fc1779b2",
+   "title": "马迭尔屋顶的落霞",
+   "subtitle": "",
+   "authors": [
+    "杨川庆"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35656656.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38930558/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
+  {
+   "id": "h:86c7e322ea9937ac",
+   "title": "布考斯基传：锁在疯狂生活怀中",
+   "subtitle": "",
+   "authors": [
+    "霍华德·索内斯"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35635584.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38553880/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-13"
+  },
   {
    "id": "isbn:9788118412403",
    "title": "Invisible to Prominent",

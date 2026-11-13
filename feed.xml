@@ -4,7 +4,70 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 12 Nov 2026 23:43:24 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 23:40:59 +0000</lastBuildDate>
+  <item>
+    <title>漂浮</title>
+    <link>https://book.douban.com/subject/37488725/</link>
+    <guid isPermaLink="false">h:ac8737d20071f12e</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[安妮·卡森 · 花城出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>一生一敦煌：常沙娜人生自述</title>
+    <link>https://book.douban.com/subject/38938095/</link>
+    <guid isPermaLink="false">h:9fca192dbe017505</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[常沙娜 · 中信出版集团 · 2026-10-12]]></description>
+  </item>
+  <item>
+    <title>相对于国家的社会：政治人类学研究</title>
+    <link>https://book.douban.com/subject/38395837/</link>
+    <guid isPermaLink="false">h:b6ffca45dbac3ed5</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[皮埃尔·克拉斯特 · 商务印书馆 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>她者：杜甫及唐代诗人的性别世界</title>
+    <link>https://book.douban.com/subject/38562852/</link>
+    <guid isPermaLink="false">h:ee1f6a626da2a633</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[欧丽娟 · 北京大学出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>在河畔</title>
+    <link>https://book.douban.com/subject/38561740/</link>
+    <guid isPermaLink="false">h:a537ea8c4adf0cd1</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>乌云之下</title>
+    <link>https://book.douban.com/subject/38369053/</link>
+    <guid isPermaLink="false">h:501b94a65af92a4a</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[赵婧怡 · 新星出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>暴君班德拉斯</title>
+    <link>https://book.douban.com/subject/38615284/</link>
+    <guid isPermaLink="false">h:b20c167838c4f811</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[巴列-因克兰 · 人民文学出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>马迭尔屋顶的落霞</title>
+    <link>https://book.douban.com/subject/38930558/</link>
+    <guid isPermaLink="false">h:80b60ac7fc1779b2</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[杨川庆 · 北京联合出版公司 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>布考斯基传：锁在疯狂生活怀中</title>
+    <link>https://book.douban.com/subject/38553880/</link>
+    <guid isPermaLink="false">h:86c7e322ea9937ac</guid>
+    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[霍华德·索内斯 · 广西师范大学出版社 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>Invisible to Prominent</title>
     <link>https://openlibrary.org/works/OL46217564W</link>
@@ -291,69 +354,6 @@
     <guid isPermaLink="false">h:dd5c0e1285254917</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[柳德米拉·乌利茨卡娅 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>变装</title>
-    <link>https://book.douban.com/subject/37497665/</link>
-    <guid isPermaLink="false">h:13d491cdf8377b21</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[米尔恰·克尔特雷斯库 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>神圣的夜晚</title>
-    <link>https://book.douban.com/subject/37180711/</link>
-    <guid isPermaLink="false">h:b61f95874bf5dca4</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[塔哈尔·本·杰伦 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>索涅奇卡</title>
-    <link>https://book.douban.com/subject/38589669/</link>
-    <guid isPermaLink="false">h:714209103250d1d4</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[柳德米拉·乌利茨卡娅 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>雾港水手</title>
-    <link>https://book.douban.com/subject/38551832/</link>
-    <guid isPermaLink="false">h:53b60f11afba3c3e</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[让·热内 · 北京联合出版公司 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>紫马</title>
-    <link>https://book.douban.com/subject/38649220/</link>
-    <guid isPermaLink="false">h:d1c47c05f04c0966</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[李世成 · 广西师范大学出版社 · 2026-09-23]]></description>
-  </item>
-  <item>
-    <title>中国现代国家的起源</title>
-    <link>https://book.douban.com/subject/38464900/</link>
-    <guid isPermaLink="false">h:84bd9b83a99c2a94</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[孔飞力 · 生活·读书·新知三联书店 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>西方文化中的神秘学：反规范性与被拒斥的知识</title>
-    <link>https://book.douban.com/subject/38495046/</link>
-    <guid isPermaLink="false">h:db30367289cb887b</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[乌特·哈内赫拉夫 · 商务印书馆 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>从问责到自省：德国战后自传文学中的记忆研究</title>
-    <link>https://book.douban.com/subject/38911578/</link>
-    <guid isPermaLink="false">h:adaac3cf1f2bc18b</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[刘海婷 · 四川人民出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>总有人留在昨天：古代书画中未完成的自由、爱情和白日梦</title>
-    <link>https://book.douban.com/subject/38922959/</link>
-    <guid isPermaLink="false">h:862775c477aca909</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[北溟鱼 · 北京联合出版公司 · 2026-09-01]]></description>
   </item>
 </channel>
 </rss>
