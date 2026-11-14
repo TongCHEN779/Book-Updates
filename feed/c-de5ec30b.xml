@@ -4,7 +4,42 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Fri, 13 Nov 2026 23:40:59 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 14 Nov 2026 22:33:32 +0000</lastBuildDate>
+  <item>
+    <title>蘑菇梦谭</title>
+    <link>https://book.douban.com/subject/38552212/</link>
+    <guid isPermaLink="false">h:5105b4928d98afe0</guid>
+    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[高原英理 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>我们所见或似见的一切</title>
+    <link>https://book.douban.com/subject/38570609/</link>
+    <guid isPermaLink="false">h:783da7a0b608b15c</guid>
+    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[刘宇昆 · 湖南文艺出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>日瓦戈医生</title>
+    <link>https://book.douban.com/subject/38414854/</link>
+    <guid isPermaLink="false">h:953c48ae6f3f2b8e</guid>
+    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[鲍里斯·帕斯捷尔纳克 · 广西师范大学出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>南风雾露</title>
+    <link>https://book.douban.com/subject/39027727/</link>
+    <guid isPermaLink="false">h:60d461d78dfbe43c</guid>
+    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[林树京 · 作家出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>良知对抗暴力：卡斯泰利奥对抗加尔文</title>
+    <link>https://book.douban.com/subject/38521380/</link>
+    <guid isPermaLink="false">h:3f0570fa037b3319</guid>
+    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[斯蒂芬·茨威格 · 生活·读书·新知三联书店 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>漂浮</title>
     <link>https://book.douban.com/subject/37488725/</link>
@@ -319,41 +354,6 @@
     <guid isPermaLink="false">h:fb8e703c8354b011</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[谢尔盖·多甫拉托夫 · 作家出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>山月记</title>
-    <link>https://book.douban.com/subject/38642056/</link>
-    <guid isPermaLink="false">h:b9b60fb384d0a0c6</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[中岛敦 · 广西师范大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>机器人大师</title>
-    <link>https://book.douban.com/subject/38547007/</link>
-    <guid isPermaLink="false">h:eb2c583ea1d64c39</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[斯塔尼斯瓦夫·莱姆 · 浙江文艺出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>真探格尼系列1：读⼼谜咒</title>
-    <link>https://book.douban.com/subject/37648915/</link>
-    <guid isPermaLink="false">h:4afbe94df919e0b2</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·弗登 · 北京联合出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>鹿特丹的伊拉斯谟：辉煌与悲情</title>
-    <link>https://book.douban.com/subject/38521381/</link>
-    <guid isPermaLink="false">h:b3e9fac823a508db</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[斯蒂芬·茨威格 · 生活·读书·新知三联书店 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>前方有我青铜茶饮</title>
-    <link>https://book.douban.com/subject/38546853/</link>
-    <guid isPermaLink="false">h:c41439a9f64635ab</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[索南才让 · 人民文学出版社 · 2026-08-01]]></description>
   </item>
 </channel>
 </rss>

@@ -1,7 +1,208 @@
 {
- "updated": "2026-11-13T23:40:59+00:00",
- "count": 380,
+ "updated": "2026-11-14T22:33:32+00:00",
+ "count": 387,
  "books": [
+  {
+   "id": "h:2ec54e6c6c7c13af",
+   "title": "新事物是如何诞生的？",
+   "subtitle": "",
+   "authors": [
+    "艾伦·麦克法兰"
+   ],
+   "publisher": "中信出版社",
+   "categories": [],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35682057.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38927429/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "h:5105b4928d98afe0",
+   "title": "蘑菇梦谭",
+   "subtitle": "",
+   "authors": [
+    "高原英理"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35675852.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38552212/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "h:65bd61785bf788de",
+   "title": "遗忘谷：在群山与暴力中拨开阿尔茨海默病的迷雾",
+   "subtitle": "",
+   "authors": [
+    "珍妮·埃琳·史密斯"
+   ],
+   "publisher": "中信出版集团",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35612039.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38634114/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版集团"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "h:783da7a0b608b15c",
+   "title": "我们所见或似见的一切",
+   "subtitle": "",
+   "authors": [
+    "刘宇昆"
+   ],
+   "publisher": "湖南文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35657146.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38570609/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "h:953c48ae6f3f2b8e",
+   "title": "日瓦戈医生",
+   "subtitle": "",
+   "authors": [
+    "鲍里斯·帕斯捷尔纳克"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35688609.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38414854/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "h:60d461d78dfbe43c",
+   "title": "南风雾露",
+   "subtitle": "",
+   "authors": [
+    "林树京"
+   ],
+   "publisher": "作家出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35687920.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/39027727/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
+  {
+   "id": "h:3f0570fa037b3319",
+   "title": "良知对抗暴力：卡斯泰利奥对抗加尔文",
+   "subtitle": "",
+   "authors": [
+    "斯蒂芬·茨威格"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35609042.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38521380/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-14"
+  },
   {
    "id": "h:ac8737d20071f12e",
    "title": "漂浮",
