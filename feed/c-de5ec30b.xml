@@ -4,7 +4,21 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sat, 14 Nov 2026 22:33:32 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 22:57:48 +0000</lastBuildDate>
+  <item>
+    <title>到婚礼去</title>
+    <link>https://book.douban.com/subject/37415389/</link>
+    <guid isPermaLink="false">h:86016f0caf179267</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·伯格 · 云南人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>The Disappearers</title>
+    <link>https://book.douban.com/subject/38422317/</link>
+    <guid isPermaLink="false">h:4aac618cda7946c0</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Marlon James · Riverhead Books · 2026-09-01]]></description>
+  </item>
   <item>
     <title>蘑菇梦谭</title>
     <link>https://book.douban.com/subject/38552212/</link>
@@ -340,20 +354,6 @@
     <guid isPermaLink="false">h:3eab0c013bf9eee0</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[特里·伊格尔顿 · 广西师范大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>谎言后备厢</title>
-    <link>https://book.douban.com/subject/37408589/</link>
-    <guid isPermaLink="false">h:08d63725dbd9dbe1</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[刘阳子 · 人民文学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>妥协</title>
-    <link>https://book.douban.com/subject/38560071/</link>
-    <guid isPermaLink="false">h:fb8e703c8354b011</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[谢尔盖·多甫拉托夫 · 作家出版社 · 2026-09-01]]></description>
   </item>
 </channel>
 </rss>

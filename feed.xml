@@ -4,7 +4,35 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sat, 14 Nov 2026 22:33:32 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 15 Nov 2026 22:57:48 +0000</lastBuildDate>
+  <item>
+    <title>两面之词：关于革命问题的通信</title>
+    <link>https://book.douban.com/subject/38433470/</link>
+    <guid isPermaLink="false">h:1a998e8956317ae4</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[赵汀阳 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>形塑美学：20世纪50年代“美学大讨论”学案研究</title>
+    <link>https://book.douban.com/subject/38556837/</link>
+    <guid isPermaLink="false">h:7c972741f1dbddf6</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[李圣传 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>到婚礼去</title>
+    <link>https://book.douban.com/subject/37415389/</link>
+    <guid isPermaLink="false">h:86016f0caf179267</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·伯格 · 云南人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>The Disappearers</title>
+    <link>https://book.douban.com/subject/38422317/</link>
+    <guid isPermaLink="false">h:4aac618cda7946c0</guid>
+    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Marlon James · Riverhead Books · 2026-09-01]]></description>
+  </item>
   <item>
     <title>新事物是如何诞生的？</title>
     <link>https://book.douban.com/subject/38927429/</link>
@@ -326,34 +354,6 @@
     <guid isPermaLink="false">h:74d5f3cc23c34312</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[安吉拉·卡特 · 北京联合出版公司 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>海浪</title>
-    <link>https://book.douban.com/subject/38632519/</link>
-    <guid isPermaLink="false">h:ebaf3d539244dfbf</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[弗吉尼亚·伍尔夫 · 文汇出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>越界</title>
-    <link>https://book.douban.com/subject/38615078/</link>
-    <guid isPermaLink="false">h:956e79e14774da48</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[路易丝·肯尼迪 · 中信出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>女孩和女人的生活</title>
-    <link>https://book.douban.com/subject/38542213/</link>
-    <guid isPermaLink="false">h:0c24004a172575f5</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[艾丽丝·门罗 · 北京十月文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>个体生活：一项哲学挑战</title>
-    <link>https://book.douban.com/subject/38596791/</link>
-    <guid isPermaLink="false">h:8fda4a7c082a218e</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[吕迪格尔·萨弗兰斯基 · 商务印书馆 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>

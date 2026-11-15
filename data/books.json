@@ -1,7 +1,119 @@
 {
- "updated": "2026-11-14T22:33:32+00:00",
- "count": 387,
+ "updated": "2026-11-15T22:57:48+00:00",
+ "count": 391,
  "books": [
+  {
+   "id": "h:1a998e8956317ae4",
+   "title": "两面之词：关于革命问题的通信",
+   "subtitle": "",
+   "authors": [
+    "赵汀阳"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35655712.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38433470/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "h:7c972741f1dbddf6",
+   "title": "形塑美学：20世纪50年代“美学大讨论”学案研究",
+   "subtitle": "",
+   "authors": [
+    "李圣传"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35655711.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38556837/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "h:86016f0caf179267",
+   "title": "到婚礼去",
+   "subtitle": "",
+   "authors": [
+    "约翰·伯格"
+   ],
+   "publisher": "云南人民出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35633367.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37415389/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-15"
+  },
+  {
+   "id": "h:4aac618cda7946c0",
+   "title": "The Disappearers",
+   "subtitle": "",
+   "authors": [
+    "Marlon James"
+   ],
+   "publisher": "Riverhead Books",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35465873.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38422317/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-15"
+  },
   {
    "id": "h:2ec54e6c6c7c13af",
    "title": "新事物是如何诞生的？",
