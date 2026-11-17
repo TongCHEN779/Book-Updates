@@ -4,7 +4,42 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sun, 15 Nov 2026 22:57:48 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 17 Nov 2026 01:54:31 +0000</lastBuildDate>
+  <item>
+    <title>姆嬷祝你一切好</title>
+    <link>https://book.douban.com/subject/38938842/</link>
+    <guid isPermaLink="false">h:2f2ee1417d87c48c</guid>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[陈耳東 · 北京联合出版公司 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>伍尔夫精选集</title>
+    <link>https://book.douban.com/subject/38590856/</link>
+    <guid isPermaLink="false">h:4060f245b0d7404f</guid>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[弗吉尼亚·伍尔夫 · 译林出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>我没有嘴，但我必须呐喊：哈兰·埃里森短篇精选集</title>
+    <link>https://book.douban.com/subject/38631097/</link>
+    <guid isPermaLink="false">h:621cdd8a88c4381a</guid>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[哈兰·埃里森 · 北京日报出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>生肉与石榴</title>
+    <link>https://book.douban.com/subject/38219661/</link>
+    <guid isPermaLink="false">h:92fc85c1b8e5828c</guid>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[赵礼恩 · 国文出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>分支</title>
+    <link>https://book.douban.com/subject/38560074/</link>
+    <guid isPermaLink="false">h:2546c7f6fa7c25e8</guid>
+    <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[谢尔盖·多甫拉托夫 · 作家出版社 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>到婚礼去</title>
     <link>https://book.douban.com/subject/37415389/</link>
@@ -319,41 +354,6 @@
     <guid isPermaLink="false">h:d1c47c05f04c0966</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[李世成 · 广西师范大学出版社 · 2026-09-23]]></description>
-  </item>
-  <item>
-    <title>从问责到自省：德国战后自传文学中的记忆研究</title>
-    <link>https://book.douban.com/subject/38911578/</link>
-    <guid isPermaLink="false">h:adaac3cf1f2bc18b</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[刘海婷 · 四川人民出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>总有人留在昨天：古代书画中未完成的自由、爱情和白日梦</title>
-    <link>https://book.douban.com/subject/38922959/</link>
-    <guid isPermaLink="false">h:862775c477aca909</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[北溟鱼 · 北京联合出版公司 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>诗词格律：精装典藏纪念版</title>
-    <link>https://book.douban.com/subject/38567112/</link>
-    <guid isPermaLink="false">h:7e7bea6bfa57ae43</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[王力 · 岳麓书社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>俄耳甫斯歌集</title>
-    <link>https://book.douban.com/subject/38591491/</link>
-    <guid isPermaLink="false">h:217d4a9365bbc09f</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[迪诺·坎帕纳 · 人民文学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>真实的事物：对文学形式的思考</title>
-    <link>https://book.douban.com/subject/38553866/</link>
-    <guid isPermaLink="false">h:3eab0c013bf9eee0</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[特里·伊格尔顿 · 广西师范大学出版社 · 2026-09-01]]></description>
   </item>
 </channel>
 </rss>

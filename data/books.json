@@ -1,7 +1,260 @@
 {
- "updated": "2026-11-15T22:57:48+00:00",
- "count": 391,
+ "updated": "2026-11-17T01:54:31+00:00",
+ "count": 400,
  "books": [
+  {
+   "id": "h:d4cb5654ac75573f",
+   "title": "财阀、先知、主帅与君王：时势还是英雄？",
+   "subtitle": "",
+   "authors": [
+    "贾雷德·戴蒙德"
+   ],
+   "publisher": "中信出版社",
+   "categories": [],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35703056.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38626193/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:2f2ee1417d87c48c",
+   "title": "姆嬷祝你一切好",
+   "subtitle": "",
+   "authors": [
+    "陈耳東"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35660359.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38938842/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "isbn:9780262054683",
+   "title": "Goodthink",
+   "subtitle": "",
+   "authors": [
+    "Damon Centola"
+   ],
+   "publisher": "MIT Press",
+   "categories": [],
+   "published": "2026-10-13",
+   "isbn13": "9780262054683",
+   "cover": "https://covers.openlibrary.org/b/id/15277182-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46405468W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:05ec13c7420404a7",
+   "title": "开山令：袍哥起源的传说、神话和历史",
+   "subtitle": "",
+   "authors": [
+    "王笛"
+   ],
+   "publisher": "人民文学出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35657501.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38631100/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "人民文学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:a020b34b7235eada",
+   "title": "伟大的道路：朱德的生平和时代",
+   "subtitle": "",
+   "authors": [
+    "艾格妮丝·史沫特莱"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35655239.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38644942/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:4060f245b0d7404f",
+   "title": "伍尔夫精选集",
+   "subtitle": "",
+   "authors": [
+    "弗吉尼亚·伍尔夫"
+   ],
+   "publisher": "译林出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35588548.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38590856/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:621cdd8a88c4381a",
+   "title": "我没有嘴，但我必须呐喊：哈兰·埃里森短篇精选集",
+   "subtitle": "",
+   "authors": [
+    "哈兰·埃里森"
+   ],
+   "publisher": "北京日报出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35688965.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38631097/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:92fc85c1b8e5828c",
+   "title": "生肉与石榴",
+   "subtitle": "",
+   "authors": [
+    "赵礼恩"
+   ],
+   "publisher": "国文出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35660246.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38219661/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
+  {
+   "id": "h:2546c7f6fa7c25e8",
+   "title": "分支",
+   "subtitle": "",
+   "authors": [
+    "谢尔盖·多甫拉托夫"
+   ],
+   "publisher": "作家出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35617727.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38560074/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-17"
+  },
   {
    "id": "h:1a998e8956317ae4",
    "title": "两面之词：关于革命问题的通信",
