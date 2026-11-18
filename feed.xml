@@ -4,7 +4,21 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Tue, 17 Nov 2026 01:54:31 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 01:01:27 +0000</lastBuildDate>
+  <item>
+    <title>寂静的重量：西方艺术名作细读</title>
+    <link>https://book.douban.com/subject/38377388/</link>
+    <guid isPermaLink="false">h:f3abb13bd8c73cf1</guid>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[未知作者 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>看守笔记</title>
+    <link>https://book.douban.com/subject/38641080/</link>
+    <guid isPermaLink="false">h:95b3ea907bb198e0</guid>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[谢尔盖·多甫拉托夫 · 作家出版社 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>财阀、先知、主帅与君王：时势还是英雄？</title>
     <link>https://book.douban.com/subject/38626193/</link>
@@ -340,20 +354,6 @@
     <guid isPermaLink="false">h:d15667c333398777</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[大卫·希尔兹 · 新星出版社 · 2026-09-30]]></description>
-  </item>
-  <item>
-    <title>臺北故事</title>
-    <link>https://book.douban.com/subject/38544103/</link>
-    <guid isPermaLink="false">h:5c90f00c37efba3a</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[匡靈秀 · 臉譜 · 2026-09-10]]></description>
-  </item>
-  <item>
-    <title>“批评”的想象力：大江健三郎、柄谷行人与“政治的季节”</title>
-    <link>https://book.douban.com/subject/38571718/</link>
-    <guid isPermaLink="false">h:5c4bac5722127e6b</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[高华鑫 · 生活·读书·新知三联书店 · 2026-09-01]]></description>
   </item>
 </channel>
 </rss>

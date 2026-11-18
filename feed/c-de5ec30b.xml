@@ -4,7 +4,14 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Tue, 17 Nov 2026 01:54:31 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 18 Nov 2026 01:01:27 +0000</lastBuildDate>
+  <item>
+    <title>看守笔记</title>
+    <link>https://book.douban.com/subject/38641080/</link>
+    <guid isPermaLink="false">h:95b3ea907bb198e0</guid>
+    <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[谢尔盖·多甫拉托夫 · 作家出版社 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>姆嬷祝你一切好</title>
     <link>https://book.douban.com/subject/38938842/</link>
@@ -347,13 +354,6 @@
     <guid isPermaLink="false">h:53b60f11afba3c3e</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[让·热内 · 北京联合出版公司 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>紫马</title>
-    <link>https://book.douban.com/subject/38649220/</link>
-    <guid isPermaLink="false">h:d1c47c05f04c0966</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[李世成 · 广西师范大学出版社 · 2026-09-23]]></description>
   </item>
 </channel>
 </rss>

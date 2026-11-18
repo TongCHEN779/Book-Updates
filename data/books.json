@@ -1,7 +1,65 @@
 {
- "updated": "2026-11-17T01:54:31+00:00",
- "count": 400,
+ "updated": "2026-11-18T01:01:27+00:00",
+ "count": 402,
  "books": [
+  {
+   "id": "h:f3abb13bd8c73cf1",
+   "title": "寂静的重量：西方艺术名作细读",
+   "subtitle": "",
+   "authors": [],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35675690.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38377388/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "h:95b3ea907bb198e0",
+   "title": "看守笔记",
+   "subtitle": "",
+   "authors": [
+    "谢尔盖·多甫拉托夫"
+   ],
+   "publisher": "作家出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35617728.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38641080/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-18"
+  },
   {
    "id": "h:d4cb5654ac75573f",
    "title": "财阀、先知、主帅与君王：时势还是英雄？",
