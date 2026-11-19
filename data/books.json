@@ -1,7 +1,202 @@
 {
- "updated": "2026-11-18T01:01:27+00:00",
- "count": 402,
+ "updated": "2026-11-19T00:31:16+00:00",
+ "count": 409,
  "books": [
+  {
+   "id": "h:9215d51571a804ed",
+   "title": "如果痛苦是重力",
+   "subtitle": "",
+   "authors": [
+    "李炫姃"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35665534.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38614781/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "h:48a91053a6bdef7f",
+   "title": "我在《文物》当编辑：从紫禁城到沙滩红楼",
+   "subtitle": "",
+   "authors": [
+    "李力"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35660384.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37863584/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "h:74f9addbf9b0b2a2",
+   "title": "工作日",
+   "subtitle": "",
+   "authors": [
+    "乔伊斯·卡罗尔·欧茨"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35646013.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37938904/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "h:35672d7f61a51c5d",
+   "title": "我们在此相遇",
+   "subtitle": "",
+   "authors": [
+    "约翰·伯格"
+   ],
+   "publisher": "云南人民出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35630453.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37415386/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "h:d279a0526df09d8a",
+   "title": "神圣是什么颜色的：一部别样的色彩殖民史",
+   "subtitle": "",
+   "authors": [
+    "迈克尔·陶西格"
+   ],
+   "publisher": "北京大学出版社",
+   "categories": [],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35575337.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38547000/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "北京大学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "h:d7566ef6075bd792",
+   "title": "The General Library :",
+   "subtitle": "",
+   "authors": [
+    "Abigail De Kosnik"
+   ],
+   "publisher": "The MIT Press",
+   "categories": [],
+   "published": "2026-01-01",
+   "isbn13": null,
+   "cover": "",
+   "description": "",
+   "language": null,
+   "url": "https://openlibrary.org/works/OL46481029W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
+  {
+   "id": "h:c5264ff4bbe498b6",
+   "title": "A Historian’s Handbook for Saving the World",
+   "subtitle": "",
+   "authors": [
+    "Alexandra Hui editor"
+   ],
+   "publisher": "MIT press",
+   "categories": [],
+   "published": "2026-01-01",
+   "isbn13": null,
+   "cover": "",
+   "description": "",
+   "language": null,
+   "url": "https://openlibrary.org/works/OL46483995W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "MIT Press"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-19"
+  },
   {
    "id": "h:f3abb13bd8c73cf1",
    "title": "寂静的重量：西方艺术名作细读",

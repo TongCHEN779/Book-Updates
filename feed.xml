@@ -4,7 +4,56 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Wed, 18 Nov 2026 01:01:27 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 00:31:16 +0000</lastBuildDate>
+  <item>
+    <title>如果痛苦是重力</title>
+    <link>https://book.douban.com/subject/38614781/</link>
+    <guid isPermaLink="false">h:9215d51571a804ed</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[李炫姃 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>我在《文物》当编辑：从紫禁城到沙滩红楼</title>
+    <link>https://book.douban.com/subject/37863584/</link>
+    <guid isPermaLink="false">h:48a91053a6bdef7f</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[李力 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>工作日</title>
+    <link>https://book.douban.com/subject/37938904/</link>
+    <guid isPermaLink="false">h:74f9addbf9b0b2a2</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>我们在此相遇</title>
+    <link>https://book.douban.com/subject/37415386/</link>
+    <guid isPermaLink="false">h:35672d7f61a51c5d</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·伯格 · 云南人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>神圣是什么颜色的：一部别样的色彩殖民史</title>
+    <link>https://book.douban.com/subject/38547000/</link>
+    <guid isPermaLink="false">h:d279a0526df09d8a</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[迈克尔·陶西格 · 北京大学出版社 · 2026-09-01]]></description>
+  </item>
+  <item>
+    <title>The General Library :</title>
+    <link>https://openlibrary.org/works/OL46481029W</link>
+    <guid isPermaLink="false">h:d7566ef6075bd792</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Abigail De Kosnik · The MIT Press · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>A Historian’s Handbook for Saving the World</title>
+    <link>https://openlibrary.org/works/OL46483995W</link>
+    <guid isPermaLink="false">h:c5264ff4bbe498b6</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Alexandra Hui editor · MIT press · 2026-01-01]]></description>
+  </item>
   <item>
     <title>寂静的重量：西方艺术名作细读</title>
     <link>https://book.douban.com/subject/38377388/</link>
@@ -305,55 +354,6 @@
     <guid isPermaLink="false">h:cf7b6af196307da5</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[浅仓秋成 · 新星出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>世界时代体系：1827-1828年慕尼黑讲座</title>
-    <link>https://book.douban.com/subject/38459355/</link>
-    <guid isPermaLink="false">h:1f909f3711858dcc</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[谢林 · 商务印书馆 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>黑暗之旅</title>
-    <link>https://book.douban.com/subject/37815726/</link>
-    <guid isPermaLink="false">h:d08c7ff274bdc8c3</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·道格拉斯 · 上海译文出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>《孝经》与儒学两千年</title>
-    <link>https://book.douban.com/subject/38521450/</link>
-    <guid isPermaLink="false">h:c684630873d4c76e</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[乔秀岩 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>认识心灵：从绝望到希望的灵魂解剖</title>
-    <link>https://book.douban.com/subject/38923965/</link>
-    <guid isPermaLink="false">h:34ec370547070570</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[加文·弗朗西斯（Gavin Francis） · 中信出版集团 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>都是普鲁斯特的错</title>
-    <link>https://book.douban.com/subject/38651061/</link>
-    <guid isPermaLink="false">h:57970286806364de</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[路易吉·马莱巴 · 人民文学出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>情有可原</title>
-    <link>https://book.douban.com/subject/37938905/</link>
-    <guid isPermaLink="false">h:8e4c48540fd1112f</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>塞林格</title>
-    <link>https://book.douban.com/subject/26915350/</link>
-    <guid isPermaLink="false">h:d15667c333398777</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[大卫·希尔兹 · 新星出版社 · 2026-09-30]]></description>
   </item>
 </channel>
 </rss>

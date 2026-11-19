@@ -4,7 +4,28 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Wed, 18 Nov 2026 01:01:27 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 19 Nov 2026 00:31:16 +0000</lastBuildDate>
+  <item>
+    <title>如果痛苦是重力</title>
+    <link>https://book.douban.com/subject/38614781/</link>
+    <guid isPermaLink="false">h:9215d51571a804ed</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[李炫姃 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>工作日</title>
+    <link>https://book.douban.com/subject/37938904/</link>
+    <guid isPermaLink="false">h:74f9addbf9b0b2a2</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>我们在此相遇</title>
+    <link>https://book.douban.com/subject/37415386/</link>
+    <guid isPermaLink="false">h:35672d7f61a51c5d</guid>
+    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[约翰·伯格 · 云南人民出版社 · 2026-10-01]]></description>
+  </item>
   <item>
     <title>看守笔记</title>
     <link>https://book.douban.com/subject/38641080/</link>
@@ -333,27 +354,6 @@
     <guid isPermaLink="false">h:13d491cdf8377b21</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[米尔恰·克尔特雷斯库 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>神圣的夜晚</title>
-    <link>https://book.douban.com/subject/37180711/</link>
-    <guid isPermaLink="false">h:b61f95874bf5dca4</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[塔哈尔·本·杰伦 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>索涅奇卡</title>
-    <link>https://book.douban.com/subject/38589669/</link>
-    <guid isPermaLink="false">h:714209103250d1d4</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[柳德米拉·乌利茨卡娅 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>雾港水手</title>
-    <link>https://book.douban.com/subject/38551832/</link>
-    <guid isPermaLink="false">h:53b60f11afba3c3e</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[让·热内 · 北京联合出版公司 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>
