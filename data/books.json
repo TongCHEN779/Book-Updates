@@ -1,7 +1,281 @@
 {
- "updated": "2026-11-19T00:31:16+00:00",
- "count": 409,
+ "updated": "2026-11-20T00:42:59+00:00",
+ "count": 418,
  "books": [
+  {
+   "id": "h:f3a7987f9493c7fc",
+   "title": "从农民到法国公民：法国农民的现代化（1870—1914）",
+   "subtitle": "",
+   "authors": [
+    "尤金·韦伯"
+   ],
+   "publisher": "北京大学出版社",
+   "categories": [],
+   "published": "2026-12-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35691262.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38616060/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "北京大学出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "isbn:9798143379817",
+   "title": "The Marketing Machinist",
+   "subtitle": "Paid Advertising, SEO, and Lessons from Building Hustle Marketers",
+   "authors": [
+    "Ishant Sharma"
+   ],
+   "publisher": "Independently published",
+   "categories": [
+    "Internet marketing",
+    "Internet advertising",
+    "Search engine optimization",
+    "Electronic commerce"
+   ],
+   "published": "2026-11-16",
+   "isbn13": "9798143379817",
+   "cover": "https://covers.openlibrary.org/b/id/15278557-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46498867W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "isbn:9788118412458",
+   "title": "Before the Buyer Calls",
+   "subtitle": "What industrial buyers check on your website, and how to win the enquiry",
+   "authors": [
+    "Arun Agrawal"
+   ],
+   "publisher": "EbizIndia Consulting Pvt. Ltd.",
+   "categories": [
+    "Industrial marketing",
+    "Business-to-business marketing",
+    "Manufacturing industries",
+    "Web sites",
+    "Search engine optimization"
+   ],
+   "published": "2026-11-11",
+   "isbn13": "9788118412458",
+   "cover": "https://covers.openlibrary.org/b/id/15278223-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46488544W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "isbn:9788118412434",
+   "title": "Chosen Worldwide",
+   "subtitle": "How Indian exporters get discovered online, earn the overseas buyer's trust and win the enquiry",
+   "authors": [
+    "Arun Agrawal"
+   ],
+   "publisher": "EbizIndia Consulting Pvt. Ltd.",
+   "categories": [
+    "Export marketing",
+    "International trade",
+    "Exporters",
+    "Web sites",
+    "Search engine optimization"
+   ],
+   "published": "2026-11-11",
+   "isbn13": "9788118412434",
+   "cover": "https://covers.openlibrary.org/b/id/15278228-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46488549W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "isbn:9788118412427",
+   "title": "Grow Through Dealers",
+   "subtitle": "What your website should do for your dealers, their customers and the dealers you have not met yet",
+   "authors": [
+    "Arun Agrawal"
+   ],
+   "publisher": "EbizIndia Consulting Pvt. Ltd.",
+   "categories": [
+    "Dealers (Retail trade)",
+    "Distribution of goods",
+    "Manufacturing industries",
+    "Web sites",
+    "Search engine optimization"
+   ],
+   "published": "2026-11-11",
+   "isbn13": "9788118412427",
+   "cover": "https://covers.openlibrary.org/b/id/15278226-M.jpg",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL46488547W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "optimization"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "h:48a784e9edbecce0",
+   "title": "瞳中剑",
+   "subtitle": "",
+   "authors": [
+    "夏桑"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35680893.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38627395/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "h:320998ab91b4acaf",
+   "title": "艺术的精神疗愈",
+   "subtitle": "",
+   "authors": [
+    "皮埃尔·勒马奎斯"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35667783.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38177157/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "h:2fdaf42d719bbbe7",
+   "title": "Music Against the Night",
+   "subtitle": "",
+   "authors": [
+    "Yiyun Li"
+   ],
+   "publisher": "Fourth Estate",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-22",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35690193.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38404362/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
+  {
+   "id": "h:d9189f4e35ce963b",
+   "title": "卡夫卡的最后审判",
+   "subtitle": "",
+   "authors": [
+    "本杰明·巴林特"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35535264.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38469452/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-20"
+  },
   {
    "id": "h:9215d51571a804ed",
    "title": "如果痛苦是重力",

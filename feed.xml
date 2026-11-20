@@ -4,7 +4,70 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 19 Nov 2026 00:31:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 00:42:59 +0000</lastBuildDate>
+  <item>
+    <title>从农民到法国公民：法国农民的现代化（1870—1914）</title>
+    <link>https://book.douban.com/subject/38616060/</link>
+    <guid isPermaLink="false">h:f3a7987f9493c7fc</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[尤金·韦伯 · 北京大学出版社 · 2026-12-01]]></description>
+  </item>
+  <item>
+    <title>The Marketing Machinist</title>
+    <link>https://openlibrary.org/works/OL46498867W</link>
+    <guid isPermaLink="false">isbn:9798143379817</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Ishant Sharma · Independently published · 2026-11-16]]></description>
+  </item>
+  <item>
+    <title>Before the Buyer Calls</title>
+    <link>https://openlibrary.org/works/OL46488544W</link>
+    <guid isPermaLink="false">isbn:9788118412458</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
+  </item>
+  <item>
+    <title>Chosen Worldwide</title>
+    <link>https://openlibrary.org/works/OL46488549W</link>
+    <guid isPermaLink="false">isbn:9788118412434</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
+  </item>
+  <item>
+    <title>Grow Through Dealers</title>
+    <link>https://openlibrary.org/works/OL46488547W</link>
+    <guid isPermaLink="false">isbn:9788118412427</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
+  </item>
+  <item>
+    <title>瞳中剑</title>
+    <link>https://book.douban.com/subject/38627395/</link>
+    <guid isPermaLink="false">h:48a784e9edbecce0</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[夏桑 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>艺术的精神疗愈</title>
+    <link>https://book.douban.com/subject/38177157/</link>
+    <guid isPermaLink="false">h:320998ab91b4acaf</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[皮埃尔·勒马奎斯 · 北京联合出版公司 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>Music Against the Night</title>
+    <link>https://book.douban.com/subject/38404362/</link>
+    <guid isPermaLink="false">h:2fdaf42d719bbbe7</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Yiyun Li · Fourth Estate · 2026-10-22]]></description>
+  </item>
+  <item>
+    <title>卡夫卡的最后审判</title>
+    <link>https://book.douban.com/subject/38469452/</link>
+    <guid isPermaLink="false">h:d9189f4e35ce963b</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[本杰明·巴林特 · 广西师范大学出版社 · 2026-10-01]]></description>
+  </item>
   <item>
     <title>如果痛苦是重力</title>
     <link>https://book.douban.com/subject/38614781/</link>
@@ -291,69 +354,6 @@
     <guid isPermaLink="false">h:41a9fa55e520224d</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[切·格瓦拉 · 民主与建设出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>盖特露德</title>
-    <link>https://book.douban.com/subject/38926280/</link>
-    <guid isPermaLink="false">h:b5802b91ef824054</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[赫尔曼·黑塞 · 岳麓书社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>理解人体结构I：表现人体形态、功能及动作的实用解剖书</title>
-    <link>https://book.douban.com/subject/39007757/</link>
-    <guid isPermaLink="false">h:a1d925e25ae9c27b</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[瓦莱丽·L. 温斯洛 · 湖南美术出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>方山为城：南宋巴蜀抗元记</title>
-    <link>https://book.douban.com/subject/38631211/</link>
-    <guid isPermaLink="false">h:1e248f192d859e46</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[萧易 · 中信出版集团 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>乔治·奥威尔：生平与书信、传奇与遗产</title>
-    <link>https://book.douban.com/subject/38501912/</link>
-    <guid isPermaLink="false">h:40dd6cac965eae47</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·罗登 · 四川人民出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>水泥地</title>
-    <link>https://book.douban.com/subject/36603752/</link>
-    <guid isPermaLink="false">h:96592944d8371b73</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[托马斯·伯恩哈德 · 上海人民出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>永恒森林之狼</title>
-    <link>https://book.douban.com/subject/38560469/</link>
-    <guid isPermaLink="false">h:cc98d5afdf05a197</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[卡尔·奥韦·克瑙斯高 · 上海三联书店 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>历史系男生</title>
-    <link>https://book.douban.com/subject/38395089/</link>
-    <guid isPermaLink="false">h:f09a5dde38188625</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[阿兰·本奈特 · 文汇出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>那刺眼的黑暗</title>
-    <link>https://book.douban.com/subject/37180720/</link>
-    <guid isPermaLink="false">h:f4c283b06be371d7</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[塔哈尔·本·杰伦 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>第一步，把理智切碎</title>
-    <link>https://book.douban.com/subject/38494106/</link>
-    <guid isPermaLink="false">h:cf7b6af196307da5</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[浅仓秋成 · 新星出版社 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>

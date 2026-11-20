@@ -4,7 +4,28 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 19 Nov 2026 00:31:16 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 20 Nov 2026 00:42:59 +0000</lastBuildDate>
+  <item>
+    <title>瞳中剑</title>
+    <link>https://book.douban.com/subject/38627395/</link>
+    <guid isPermaLink="false">h:48a784e9edbecce0</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[夏桑 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>Music Against the Night</title>
+    <link>https://book.douban.com/subject/38404362/</link>
+    <guid isPermaLink="false">h:2fdaf42d719bbbe7</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Yiyun Li · Fourth Estate · 2026-10-22]]></description>
+  </item>
+  <item>
+    <title>卡夫卡的最后审判</title>
+    <link>https://book.douban.com/subject/38469452/</link>
+    <guid isPermaLink="false">h:d9189f4e35ce963b</guid>
+    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[本杰明·巴林特 · 广西师范大学出版社 · 2026-10-01]]></description>
+  </item>
   <item>
     <title>如果痛苦是重力</title>
     <link>https://book.douban.com/subject/38614781/</link>
@@ -333,27 +354,6 @@
     <guid isPermaLink="false">h:7c918c2414b4f019</guid>
     <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[片冈翔 · 新星出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>明焰前身：江南七怪谈</title>
-    <link>https://book.douban.com/subject/38626175/</link>
-    <guid isPermaLink="false">h:9918f2d9be9a9833</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[林戈声 · 广西师范大学出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>穷亲戚</title>
-    <link>https://book.douban.com/subject/38644894/</link>
-    <guid isPermaLink="false">h:dd5c0e1285254917</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[柳德米拉·乌利茨卡娅 · 湖南文艺出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>变装</title>
-    <link>https://book.douban.com/subject/37497665/</link>
-    <guid isPermaLink="false">h:13d491cdf8377b21</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[米尔恰·克尔特雷斯库 · 湖南文艺出版社 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>
