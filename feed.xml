@@ -4,7 +4,7 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sat, 21 Nov 2026 00:03:48 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 21 Nov 2026 23:28:44 +0000</lastBuildDate>
   <item>
     <title>某种物质的爱</title>
     <link>https://book.douban.com/subject/38238934/</link>
@@ -67,6 +67,13 @@
     <guid isPermaLink="false">h:531e38eb13183edf</guid>
     <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>中国娼妓史</title>
+    <link>https://book.douban.com/subject/38555205/</link>
+    <guid isPermaLink="false">h:ce63d207342f2e1d</guid>
+    <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[王书奴 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
   </item>
   <item>
     <title>从农民到法国公民：法国农民的现代化（1870—1914）</title>
@@ -347,13 +354,6 @@
     <guid isPermaLink="false">h:9fca192dbe017505</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[常沙娜 · 中信出版集团 · 2026-10-12]]></description>
-  </item>
-  <item>
-    <title>相对于国家的社会：政治人类学研究</title>
-    <link>https://book.douban.com/subject/38395837/</link>
-    <guid isPermaLink="false">h:b6ffca45dbac3ed5</guid>
-    <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[皮埃尔·克拉斯特 · 商务印书馆 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>

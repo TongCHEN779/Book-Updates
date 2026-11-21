@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-21T00:03:48+00:00",
- "count": 427,
+ "updated": "2026-11-21T23:28:44+00:00",
+ "count": 428,
  "books": [
   {
    "id": "h:42fd549ce5ae4dc4",
@@ -257,6 +257,33 @@
      "文学"
     ],
     "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:ce63d207342f2e1d",
+   "title": "中国娼妓史",
+   "subtitle": "",
+   "authors": [
+    "王书奴"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35635940.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38555205/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
     "authors": []
    },
    "first_seen": "2026-11-21"
