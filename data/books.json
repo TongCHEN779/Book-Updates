@@ -1,7 +1,266 @@
 {
- "updated": "2026-11-20T00:42:59+00:00",
- "count": 418,
+ "updated": "2026-11-21T00:03:48+00:00",
+ "count": 427,
  "books": [
+  {
+   "id": "h:42fd549ce5ae4dc4",
+   "title": "某种物质的爱",
+   "subtitle": "",
+   "authors": [
+    "千先兰"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35675313.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38238934/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:9ccda1ed73e6f2c5",
+   "title": "龙沙",
+   "subtitle": "",
+   "authors": [
+    "杨知寒"
+   ],
+   "publisher": "译林出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35647057.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38556207/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:47e0274f34e5c22c",
+   "title": "地图谜案",
+   "subtitle": "",
+   "authors": [
+    "雨穴"
+   ],
+   "publisher": "浙江人民出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35706233.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38532617/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:6460f02959a15505",
+   "title": "庞然大物",
+   "subtitle": "",
+   "authors": [
+    "特雷齐娅·莫拉"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35703057.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37523832/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:ffa776379537bac6",
+   "title": "鼎革之气：法国大革命前夕的巴黎，1748一1789",
+   "subtitle": "",
+   "authors": [
+    "罗伯特·达恩顿"
+   ],
+   "publisher": "中信出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35653547.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38518391/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "中信出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:7f4b4ffde822c39c",
+   "title": "离地生根：植物、边界与归属之间",
+   "subtitle": "",
+   "authors": [
+    "李洁珂（Jessica J. Lee）"
+   ],
+   "publisher": "上海书店出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35610297.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38408074/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:adbd1527aa14257d",
+   "title": "卡夫卡：为生而写",
+   "subtitle": "",
+   "authors": [
+    "吕迪格·萨弗兰斯基"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35623723.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38553865/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:1d7b9f0d4a248069",
+   "title": "追忆往还录：普鲁斯特、纪德通信集",
+   "subtitle": "",
+   "authors": [
+    "马塞尔·普鲁斯特"
+   ],
+   "publisher": "四川文艺出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35653877.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38651057/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
+  {
+   "id": "h:531e38eb13183edf",
+   "title": "歧途",
+   "subtitle": "",
+   "authors": [
+    "乔伊斯·卡罗尔·欧茨"
+   ],
+   "publisher": "北京联合出版公司",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35645395.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/37938903/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-21"
+  },
   {
    "id": "h:f3a7987f9493c7fc",
    "title": "从农民到法国公民：法国农民的现代化（1870—1914）",
