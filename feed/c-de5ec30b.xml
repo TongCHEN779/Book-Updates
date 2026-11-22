@@ -4,7 +4,35 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sat, 21 Nov 2026 23:28:44 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 22 Nov 2026 23:40:11 +0000</lastBuildDate>
+  <item>
+    <title>月相书</title>
+    <link>https://book.douban.com/subject/38923692/</link>
+    <guid isPermaLink="false">h:d6334aa115a348d5</guid>
+    <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[包慧怡 · 上海文艺出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>寒山之上：一位唐代隐士的诗与觉悟之境</title>
+    <link>https://book.douban.com/subject/38540719/</link>
+    <guid isPermaLink="false">h:d1fc7e63c8a3a5fe</guid>
+    <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[罗吉伟 · 东方出版中心 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>居无定所者日记</title>
+    <link>https://book.douban.com/subject/38589691/</link>
+    <guid isPermaLink="false">h:a54db7709d10f678</guid>
+    <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[马克·奥热 · 四川人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>无暇赴死</title>
+    <link>https://book.douban.com/subject/38469221/</link>
+    <guid isPermaLink="false">h:a46dbbf249e71d35</guid>
+    <pubDate>Sun, 22 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[核融炉 · 译林出版社 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>某种物质的爱</title>
     <link>https://book.douban.com/subject/38238934/</link>
@@ -326,34 +354,6 @@
     <guid isPermaLink="false">h:d15667c333398777</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[大卫·希尔兹 · 新星出版社 · 2026-09-30]]></description>
-  </item>
-  <item>
-    <title>臺北故事</title>
-    <link>https://book.douban.com/subject/38544103/</link>
-    <guid isPermaLink="false">h:5c90f00c37efba3a</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[匡靈秀 · 臉譜 · 2026-09-10]]></description>
-  </item>
-  <item>
-    <title>绿色密封蜡</title>
-    <link>https://book.douban.com/subject/38612696/</link>
-    <guid isPermaLink="false">h:834bd3385606b644</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[柯莱特 · 海峡文艺出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>未失之物的经济学</title>
-    <link>https://book.douban.com/subject/39000303/</link>
-    <guid isPermaLink="false">h:c12ebdb2ab8542f3</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[安妮·卡森 · 四川人民出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>天地万物均可为剑：金庸的世界与江湖中人赖以生存的隐喻</title>
-    <link>https://book.douban.com/subject/38608107/</link>
-    <guid isPermaLink="false">h:7d5d7b932ba5aa83</guid>
-    <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[巫怀宇 · 广西师范大学出版社 · 2026-10-21]]></description>
   </item>
 </channel>
 </rss>

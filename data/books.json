@@ -1,7 +1,150 @@
 {
- "updated": "2026-11-21T23:28:44+00:00",
- "count": 428,
+ "updated": "2026-11-22T23:40:11+00:00",
+ "count": 433,
  "books": [
+  {
+   "id": "h:af7ebc449dd17526",
+   "title": "外包自我：市场如何重塑我们的生活",
+   "subtitle": "",
+   "authors": [
+    "阿莉·拉塞尔·霍克希尔德"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35679933.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38521379/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "h:d6334aa115a348d5",
+   "title": "月相书",
+   "subtitle": "",
+   "authors": [
+    "包慧怡"
+   ],
+   "publisher": "上海文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35653706.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38923692/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "h:d1fc7e63c8a3a5fe",
+   "title": "寒山之上：一位唐代隐士的诗与觉悟之境",
+   "subtitle": "",
+   "authors": [
+    "罗吉伟"
+   ],
+   "publisher": "东方出版中心",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35690775.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38540719/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "h:a54db7709d10f678",
+   "title": "居无定所者日记",
+   "subtitle": "",
+   "authors": [
+    "马克·奥热"
+   ],
+   "publisher": "四川人民出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35629985.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38589691/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-22"
+  },
+  {
+   "id": "h:a46dbbf249e71d35",
+   "title": "无暇赴死",
+   "subtitle": "",
+   "authors": [
+    "核融炉"
+   ],
+   "publisher": "译林出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35636921.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38469221/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-22"
+  },
   {
    "id": "h:42fd549ce5ae4dc4",
    "title": "某种物质的爱",
