@@ -4,7 +4,49 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Sun, 22 Nov 2026 23:40:11 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 24 Nov 2026 03:59:39 +0000</lastBuildDate>
+  <item>
+    <title>规划者：塑造新中国城市的大师们</title>
+    <link>https://book.douban.com/subject/39050836/</link>
+    <guid isPermaLink="false">h:080caabcd7422896</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[李浩 · 生活·读书·新知三联书店 · 2026-12-01]]></description>
+  </item>
+  <item>
+    <title>亲爱的朋友，亲爱的园丁：生活与园艺通信集</title>
+    <link>https://book.douban.com/subject/39019703/</link>
+    <guid isPermaLink="false">h:6ec719d89d3bb509</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[克里斯托弗·劳埃德 · 上海文艺出版社 · 2026-12-01]]></description>
+  </item>
+  <item>
+    <title>严密监视的列车</title>
+    <link>https://book.douban.com/subject/38608108/</link>
+    <guid isPermaLink="false">h:a98c11a2700a730f</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[博胡米尔·赫拉巴尔 · 广西师范大学出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>钟表匠的陷阱</title>
+    <link>https://book.douban.com/subject/38176031/</link>
+    <guid isPermaLink="false">h:4464f8868600e0ce</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[杰夫里·迪弗 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>西方神秘学传统</title>
+    <link>https://book.douban.com/subject/38535483/</link>
+    <guid isPermaLink="false">h:8cf41e977acb2c40</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[尼古拉斯·古德里克-克拉克 · 商务印书馆 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>白痴</title>
+    <link>https://book.douban.com/subject/38632499/</link>
+    <guid isPermaLink="false">h:f4a072633ff61773</guid>
+    <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[陀思妥耶夫斯基 · 江苏凤凰文艺出版社 · 2026-10-01]]></description>
+  </item>
   <item>
     <title>外包自我：市场如何重塑我们的生活</title>
     <link>https://book.douban.com/subject/38521379/</link>
@@ -312,48 +354,6 @@
     <guid isPermaLink="false">h:7c972741f1dbddf6</guid>
     <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[李圣传 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>到婚礼去</title>
-    <link>https://book.douban.com/subject/37415389/</link>
-    <guid isPermaLink="false">h:86016f0caf179267</guid>
-    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·伯格 · 云南人民出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>The Disappearers</title>
-    <link>https://book.douban.com/subject/38422317/</link>
-    <guid isPermaLink="false">h:4aac618cda7946c0</guid>
-    <pubDate>Sun, 15 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Marlon James · Riverhead Books · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>新事物是如何诞生的？</title>
-    <link>https://book.douban.com/subject/38927429/</link>
-    <guid isPermaLink="false">h:2ec54e6c6c7c13af</guid>
-    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[艾伦·麦克法兰 · 中信出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>蘑菇梦谭</title>
-    <link>https://book.douban.com/subject/38552212/</link>
-    <guid isPermaLink="false">h:5105b4928d98afe0</guid>
-    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[高原英理 · 新星出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>遗忘谷：在群山与暴力中拨开阿尔茨海默病的迷雾</title>
-    <link>https://book.douban.com/subject/38634114/</link>
-    <guid isPermaLink="false">h:65bd61785bf788de</guid>
-    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[珍妮·埃琳·史密斯 · 中信出版集团 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>我们所见或似见的一切</title>
-    <link>https://book.douban.com/subject/38570609/</link>
-    <guid isPermaLink="false">h:783da7a0b608b15c</guid>
-    <pubDate>Sat, 14 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[刘宇昆 · 湖南文艺出版社 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>

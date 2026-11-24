@@ -1,7 +1,177 @@
 {
- "updated": "2026-11-22T23:40:11+00:00",
- "count": 433,
+ "updated": "2026-11-24T03:59:39+00:00",
+ "count": 439,
  "books": [
+  {
+   "id": "h:080caabcd7422896",
+   "title": "规划者：塑造新中国城市的大师们",
+   "subtitle": "",
+   "authors": [
+    "李浩"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-12-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35704183.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/39050836/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "h:6ec719d89d3bb509",
+   "title": "亲爱的朋友，亲爱的园丁：生活与园艺通信集",
+   "subtitle": "",
+   "authors": [
+    "克里斯托弗·劳埃德"
+   ],
+   "publisher": "上海文艺出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-12-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35691927.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/39019703/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "h:a98c11a2700a730f",
+   "title": "严密监视的列车",
+   "subtitle": "",
+   "authors": [
+    "博胡米尔·赫拉巴尔"
+   ],
+   "publisher": "广西师范大学出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35706466.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38608108/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "h:4464f8868600e0ce",
+   "title": "钟表匠的陷阱",
+   "subtitle": "",
+   "authors": [
+    "杰夫里·迪弗"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35688989.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38176031/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "h:8cf41e977acb2c40",
+   "title": "西方神秘学传统",
+   "subtitle": "",
+   "authors": [
+    "尼古拉斯·古德里克-克拉克"
+   ],
+   "publisher": "商务印书馆",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35720111.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38535483/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "商务印书馆"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-24"
+  },
+  {
+   "id": "h:f4a072633ff61773",
+   "title": "白痴",
+   "subtitle": "",
+   "authors": [
+    "陀思妥耶夫斯基"
+   ],
+   "publisher": "江苏凤凰文艺出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35707014.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38632499/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-24"
+  },
   {
    "id": "h:af7ebc449dd17526",
    "title": "外包自我：市场如何重塑我们的生活",
