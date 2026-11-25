@@ -1,7 +1,269 @@
 {
- "updated": "2026-11-24T03:59:39+00:00",
- "count": 439,
+ "updated": "2026-11-25T02:36:03+00:00",
+ "count": 448,
  "books": [
+  {
+   "id": "h:75da54fcbc2b8c50",
+   "title": "本原与给予：列维纳斯、亨利与马里翁的激进现象学",
+   "subtitle": "",
+   "authors": [
+    "朱刚"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-12-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35704290.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38613929/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "h:8251b009c4b57c06",
+   "title": "华尔街两百年",
+   "subtitle": "",
+   "authors": [
+    "查尔斯·R.盖斯特"
+   ],
+   "publisher": "上海译文出版社",
+   "categories": [],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35644479.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38647957/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "h:5d0aa71049336b8e",
+   "title": "直言怪话（全4册）",
+   "subtitle": "",
+   "authors": [
+    "拟态"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-09-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35667597.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38482701/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "isbn:9798898602161",
+   "title": "Steven Mccaffrey Lloyd, Architect",
+   "subtitle": "",
+   "authors": [
+    "Steven Lloyd"
+   ],
+   "publisher": "Staten House",
+   "categories": [
+    "Architecture"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798898602161",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45611617W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "architecture"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "isbn:9798896281450",
+   "title": "Florida Structural Carpentry Contractor Study Guide",
+   "subtitle": "",
+   "authors": [
+    "robert estell"
+   ],
+   "publisher": "Square Publishing",
+   "categories": [
+    "Business",
+    "Architecture"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798896281450",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45612463W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "architecture"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "isbn:9781972429013",
+   "title": "Coherence Universalism Physics",
+   "subtitle": "",
+   "authors": [
+    "Gaura Kisora Das Rader"
+   ],
+   "publisher": "Heaven Earth Foundation",
+   "categories": [
+    "Philosophy",
+    "Spirituality"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9781972429013",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152447W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "isbn:9798234024794",
+   "title": "Series 7",
+   "subtitle": "",
+   "authors": [
+    "Jacob Taylor"
+   ],
+   "publisher": "OMEGA DOMINION LLC",
+   "categories": [
+    "Philosophy",
+    "Self-help techniques"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798234024794",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152476W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "isbn:9798995229902",
+   "title": "Words We Once Knew",
+   "subtitle": "",
+   "authors": [
+    "Jeff Gatlin"
+   ],
+   "publisher": "Laurelwood Press",
+   "categories": [
+    "Philosophy",
+    "Social sciences"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798995229902",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152485W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
+  {
+   "id": "isbn:9798903908554",
+   "title": "Sacred Sound Meditation",
+   "subtitle": "",
+   "authors": [
+    "Michael Curzi"
+   ],
+   "publisher": "36N9 GENETICS LLC",
+   "categories": [
+    "Philosophy",
+    "Psychology"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798903908554",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152765W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-25"
+  },
   {
    "id": "h:080caabcd7422896",
    "title": "规划者：塑造新中国城市的大师们",
@@ -6390,7 +6652,10 @@
     "Quantum Algorithms",
     "Data Science",
     "Industry 4.0",
-    "NISQ"
+    "NISQ",
+    "Machine learning",
+    "Quantum computing",
+    "Artificial intelligence"
    ],
    "published": "2026-01-01",
    "isbn13": "9798248720088",
@@ -6425,7 +6690,9 @@
     "Scientific Research",
     "Computational Science",
     "STEM Education",
-    "Future Technologies"
+    "Future Technologies",
+    "Machine learning",
+    "Artificial intelligence"
    ],
    "published": "2026-01-01",
    "isbn13": null,
@@ -6671,7 +6938,10 @@
     "Large Language Models",
     "LLMs",
     "Natural Language Processing",
-    "NLP"
+    "NLP",
+    "Chunking",
+    "Semantic Chunking",
+    "Vector Search"
    ],
    "published": "2026-01-01",
    "isbn13": "9789348959065",
@@ -13356,7 +13626,8 @@
    "publisher": "The MIT Press",
    "categories": [
     "Video games",
-    "HISTORY"
+    "HISTORY",
+    "History"
    ],
    "published": "2026-09-22",
    "isbn13": "9780262054584",

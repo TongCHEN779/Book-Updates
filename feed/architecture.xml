@@ -4,7 +4,21 @@
   <title>New Books · architecture</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Tue, 24 Nov 2026 03:59:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 02:36:03 +0000</lastBuildDate>
+  <item>
+    <title>Steven Mccaffrey Lloyd, Architect</title>
+    <link>https://openlibrary.org/works/OL45611617W</link>
+    <guid isPermaLink="false">isbn:9798898602161</guid>
+    <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Steven Lloyd · Staten House · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>Florida Structural Carpentry Contractor Study Guide</title>
+    <link>https://openlibrary.org/works/OL45612463W</link>
+    <guid isPermaLink="false">isbn:9798896281450</guid>
+    <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[robert estell · Square Publishing · 2026-01-01]]></description>
+  </item>
   <item>
     <title>Building a C-Subset Compiler for the FRISC Architecture</title>
     <link>https://openlibrary.org/works/OL45589064W</link>

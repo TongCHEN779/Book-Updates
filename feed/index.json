@@ -17,7 +17,7 @@
  {
   "name": "architecture",
   "file": "feed/architecture.xml",
-  "count": 40
+  "count": 42
  },
  {
   "name": "literature",
@@ -32,12 +32,12 @@
  {
   "name": "philosophy",
   "file": "feed/philosophy.xml",
-  "count": 40
+  "count": 44
  },
  {
   "name": "文学",
   "file": "feed/c-de5ec30b.xml",
-  "count": 126
+  "count": 127
  },
  {
   "name": "艺术",

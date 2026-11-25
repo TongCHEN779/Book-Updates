@@ -4,7 +4,14 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Tue, 24 Nov 2026 03:59:39 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 25 Nov 2026 02:36:03 +0000</lastBuildDate>
+  <item>
+    <title>直言怪话（全4册）</title>
+    <link>https://book.douban.com/subject/38482701/</link>
+    <guid isPermaLink="false">h:5d0aa71049336b8e</guid>
+    <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[拟态 · 新星出版社 · 2026-09-01]]></description>
+  </item>
   <item>
     <title>亲爱的朋友，亲爱的园丁：生活与园艺通信集</title>
     <link>https://book.douban.com/subject/39019703/</link>
@@ -347,13 +354,6 @@
     <guid isPermaLink="false">h:f09a5dde38188625</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[阿兰·本奈特 · 文汇出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>那刺眼的黑暗</title>
-    <link>https://book.douban.com/subject/37180720/</link>
-    <guid isPermaLink="false">h:f4c283b06be371d7</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[塔哈尔·本·杰伦 · 湖南文艺出版社 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>
