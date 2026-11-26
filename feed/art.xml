@@ -4,7 +4,14 @@
   <title>New Books · art</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Wed, 25 Nov 2026 02:36:03 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 26 Nov 2026 01:50:26 +0000</lastBuildDate>
+  <item>
+    <title>Phenotype</title>
+    <link>https://openlibrary.org/works/OL45157532W</link>
+    <guid isPermaLink="false">isbn:9798990980525</guid>
+    <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Annette Goodfriend, DeWitt Cheng, Betty Ann Brown, Shana Nys Drambot · Netropolitan · 2026-01-01]]></description>
+  </item>
   <item>
     <title>Sas Domos de Janas</title>
     <link>https://openlibrary.org/works/OL44970356W</link>

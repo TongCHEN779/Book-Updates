@@ -1,7 +1,305 @@
 {
- "updated": "2026-11-25T02:36:03+00:00",
- "count": 448,
+ "updated": "2026-11-26T01:50:26+00:00",
+ "count": 458,
  "books": [
+  {
+   "id": "h:b802b1e6b7929307",
+   "title": "中国美术与朝代时间",
+   "subtitle": "",
+   "authors": [
+    "巫鸿"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-12-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35703350.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38522006/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "h:8ed45c7f0ffd7395",
+   "title": "地狱之火：一部关于母性与精神病的回忆录",
+   "subtitle": "",
+   "authors": [
+    "凯瑟琳·赵"
+   ],
+   "publisher": "上海译文出版社",
+   "categories": [],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35657084.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38899093/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "h:7144e14891f88fa0",
+   "title": "《论语》：心之镜",
+   "subtitle": "",
+   "authors": [
+    "乔秀岩"
+   ],
+   "publisher": "生活·读书·新知三联书店",
+   "categories": [],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35704292.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38930469/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [],
+    "publishers": [
+     "生活·读书·新知三联书店"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "h:39ba1156ce9a0616",
+   "title": "凯尔特的薄暮",
+   "subtitle": "",
+   "authors": [
+    "W. B.叶芝"
+   ],
+   "publisher": "上海译文出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35657080.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38673137/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "h:ee4f7a7c40c6f7c4",
+   "title": "贝琳达的玫瑰花",
+   "subtitle": "",
+   "authors": [
+    "伊塔洛·卡尔维诺 编著"
+   ],
+   "publisher": "中国中福会出版社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35723831.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38923787/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "h:7ee59313cbe1623a",
+   "title": "浊污之杯",
+   "subtitle": "",
+   "authors": [
+    "罗柏·杰克森·班奈特"
+   ],
+   "publisher": "天地出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35688544.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38460768/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "isbn:9798896281870",
+   "title": "Guía de Estudio para el Contratista de Florida Sobre Listones y Yeso",
+   "subtitle": "",
+   "authors": [
+    "Robert Estell"
+   ],
+   "publisher": "Square Publishing",
+   "categories": [
+    "Business",
+    "Architecture"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798896281870",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45612605W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "architecture"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "isbn:9798896281764",
+   "title": "Guía de Estudio para el Contratista de Florida Sobre Acero Estructural",
+   "subtitle": "",
+   "authors": [
+    "Robert Estell"
+   ],
+   "publisher": "Square Publishing",
+   "categories": [
+    "Business",
+    "Architecture"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798896281764",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45612607W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "architecture"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "isbn:9798765689868",
+   "title": "All Kinds of Families",
+   "subtitle": "",
+   "authors": [
+    "Katie Peters"
+   ],
+   "publisher": "Lerner Publishing Group",
+   "categories": [
+    "Family, juvenile literature",
+    "Family",
+    "Multiculturalism"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798765689868",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45150937W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "literature"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
+  {
+   "id": "isbn:9798990980525",
+   "title": "Phenotype",
+   "subtitle": "",
+   "authors": [
+    "Annette Goodfriend",
+    "DeWitt Cheng",
+    "Betty Ann Brown",
+    "Shana Nys Drambot"
+   ],
+   "publisher": "Netropolitan",
+   "categories": [
+    "Art",
+    "Science"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798990980525",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45157532W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "art"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-26"
+  },
   {
    "id": "h:75da54fcbc2b8c50",
    "title": "本原与给予：列维纳斯、亨利与马里翁的激进现象学",
@@ -5960,7 +6258,8 @@
     "lexical analysis",
     "parsing",
     "LR(1) parsing",
-    "semantic analysis"
+    "semantic analysis",
+    "type checking"
    ],
    "published": "2026-06-10",
    "isbn13": "9789534719800",

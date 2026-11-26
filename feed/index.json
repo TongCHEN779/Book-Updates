@@ -17,17 +17,17 @@
  {
   "name": "architecture",
   "file": "feed/architecture.xml",
-  "count": 42
+  "count": 44
  },
  {
   "name": "literature",
   "file": "feed/literature.xml",
-  "count": 39
+  "count": 40
  },
  {
   "name": "art",
   "file": "feed/art.xml",
-  "count": 34
+  "count": 35
  },
  {
   "name": "philosophy",
@@ -37,12 +37,12 @@
  {
   "name": "文学",
   "file": "feed/c-de5ec30b.xml",
-  "count": 127
+  "count": 130
  },
  {
   "name": "艺术",
   "file": "feed/c-be73170b.xml",
-  "count": 18
+  "count": 19
  },
  {
   "name": "哲学",
