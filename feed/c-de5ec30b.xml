@@ -4,7 +4,14 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 26 Nov 2026 01:50:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 01:48:07 +0000</lastBuildDate>
+  <item>
+    <title>人类考察箴言录</title>
+    <link>https://book.douban.com/subject/38685810/</link>
+    <guid isPermaLink="false">h:ab0740cd49a5e6cf</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[弗朗索瓦·德·拉罗什富科 · 岳麓书社 · 2026-11-01]]></description>
+  </item>
   <item>
     <title>凯尔特的薄暮</title>
     <link>https://book.douban.com/subject/38673137/</link>
@@ -347,13 +354,6 @@
     <guid isPermaLink="false">h:b5802b91ef824054</guid>
     <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[赫尔曼·黑塞 · 岳麓书社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>乔治·奥威尔：生平与书信、传奇与遗产</title>
-    <link>https://book.douban.com/subject/38501912/</link>
-    <guid isPermaLink="false">h:40dd6cac965eae47</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[约翰·罗登 · 四川人民出版社 · 2026-10-01]]></description>
   </item>
 </channel>
 </rss>

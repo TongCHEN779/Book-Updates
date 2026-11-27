@@ -4,7 +4,21 @@
   <title>New Books · literature</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 26 Nov 2026 01:50:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 01:48:07 +0000</lastBuildDate>
+  <item>
+    <title>Explore Ancient Egypt</title>
+    <link>https://openlibrary.org/works/OL45150950W</link>
+    <guid isPermaLink="false">isbn:9798348028930</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Zelda Wagner · Lerner Publishing Group · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>Explora Los Hábitats Del Bosque con Archibaldo (Explore Forest Habitats with Grover)</title>
+    <link>https://openlibrary.org/works/OL45150957W</link>
+    <guid isPermaLink="false">isbn:9798765690284</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Charlotte Reed · Lerner Publishing Group · 2026-01-01]]></description>
+  </item>
   <item>
     <title>All Kinds of Families</title>
     <link>https://openlibrary.org/works/OL45150937W</link>

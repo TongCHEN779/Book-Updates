@@ -1,7 +1,97 @@
 {
- "updated": "2026-11-26T01:50:26+00:00",
- "count": 458,
+ "updated": "2026-11-27T01:48:07+00:00",
+ "count": 461,
  "books": [
+  {
+   "id": "h:ab0740cd49a5e6cf",
+   "title": "人类考察箴言录",
+   "subtitle": "",
+   "authors": [
+    "弗朗索瓦·德·拉罗什富科"
+   ],
+   "publisher": "岳麓书社",
+   "categories": [
+    "文学"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35672734.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38685810/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "isbn:9798348028930",
+   "title": "Explore Ancient Egypt",
+   "subtitle": "",
+   "authors": [
+    "Zelda Wagner"
+   ],
+   "publisher": "Lerner Publishing Group",
+   "categories": [
+    "Africa, history",
+    "History, ancient, juvenile literature",
+    "History, ancient"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798348028930",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45150950W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "literature"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-27"
+  },
+  {
+   "id": "isbn:9798765690284",
+   "title": "Explora Los Hábitats Del Bosque con Archibaldo (Explore Forest Habitats with Grover)",
+   "subtitle": "",
+   "authors": [
+    "Charlotte Reed"
+   ],
+   "publisher": "Lerner Publishing Group",
+   "categories": [
+    "Zoology, juvenile literature",
+    "Zoology"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798765690284",
+   "cover": "",
+   "description": "",
+   "language": "spa",
+   "url": "https://openlibrary.org/works/OL45150957W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "literature"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-27"
+  },
   {
    "id": "h:b802b1e6b7929307",
    "title": "中国美术与朝代时间",

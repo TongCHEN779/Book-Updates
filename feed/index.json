@@ -22,7 +22,7 @@
  {
   "name": "literature",
   "file": "feed/literature.xml",
-  "count": 40
+  "count": 42
  },
  {
   "name": "art",
@@ -37,7 +37,7 @@
  {
   "name": "文学",
   "file": "feed/c-de5ec30b.xml",
-  "count": 130
+  "count": 131
  },
  {
   "name": "艺术",

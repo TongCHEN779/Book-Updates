@@ -4,7 +4,28 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Thu, 26 Nov 2026 01:50:26 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 27 Nov 2026 01:48:07 +0000</lastBuildDate>
+  <item>
+    <title>人类考察箴言录</title>
+    <link>https://book.douban.com/subject/38685810/</link>
+    <guid isPermaLink="false">h:ab0740cd49a5e6cf</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[弗朗索瓦·德·拉罗什富科 · 岳麓书社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>Explore Ancient Egypt</title>
+    <link>https://openlibrary.org/works/OL45150950W</link>
+    <guid isPermaLink="false">isbn:9798348028930</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Zelda Wagner · Lerner Publishing Group · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>Explora Los Hábitats Del Bosque con Archibaldo (Explore Forest Habitats with Grover)</title>
+    <link>https://openlibrary.org/works/OL45150957W</link>
+    <guid isPermaLink="false">isbn:9798765690284</guid>
+    <pubDate>Fri, 27 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Charlotte Reed · Lerner Publishing Group · 2026-01-01]]></description>
+  </item>
   <item>
     <title>中国美术与朝代时间</title>
     <link>https://book.douban.com/subject/38522006/</link>
@@ -333,27 +354,6 @@
     <guid isPermaLink="false">h:320998ab91b4acaf</guid>
     <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[皮埃尔·勒马奎斯 · 北京联合出版公司 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>Music Against the Night</title>
-    <link>https://book.douban.com/subject/38404362/</link>
-    <guid isPermaLink="false">h:2fdaf42d719bbbe7</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Yiyun Li · Fourth Estate · 2026-10-22]]></description>
-  </item>
-  <item>
-    <title>卡夫卡的最后审判</title>
-    <link>https://book.douban.com/subject/38469452/</link>
-    <guid isPermaLink="false">h:d9189f4e35ce963b</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[本杰明·巴林特 · 广西师范大学出版社 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>如果痛苦是重力</title>
-    <link>https://book.douban.com/subject/38614781/</link>
-    <guid isPermaLink="false">h:9215d51571a804ed</guid>
-    <pubDate>Thu, 19 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[李炫姃 · 新星出版社 · 2026-11-01]]></description>
   </item>
 </channel>
 </rss>
