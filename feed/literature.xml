@@ -4,7 +4,14 @@
   <title>New Books · literature</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Fri, 27 Nov 2026 01:48:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 01:30:36 +0000</lastBuildDate>
+  <item>
+    <title>Coffee and Jesus</title>
+    <link>https://openlibrary.org/works/OL45151112W</link>
+    <guid isPermaLink="false">isbn:9798891512528</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Jean Fischer · Barbour Publishing, Incorporated · 2026-01-01]]></description>
+  </item>
   <item>
     <title>Explore Ancient Egypt</title>
     <link>https://openlibrary.org/works/OL45150950W</link>

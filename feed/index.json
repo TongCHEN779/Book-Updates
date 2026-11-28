@@ -22,7 +22,7 @@
  {
   "name": "literature",
   "file": "feed/literature.xml",
-  "count": 42
+  "count": 43
  },
  {
   "name": "art",
@@ -32,17 +32,17 @@
  {
   "name": "philosophy",
   "file": "feed/philosophy.xml",
-  "count": 44
+  "count": 47
  },
  {
   "name": "文学",
   "file": "feed/c-de5ec30b.xml",
-  "count": 131
+  "count": 134
  },
  {
   "name": "艺术",
   "file": "feed/c-be73170b.xml",
-  "count": 19
+  "count": 20
  },
  {
   "name": "哲学",

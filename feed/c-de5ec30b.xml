@@ -4,7 +4,28 @@
   <title>New Books · 文学</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Fri, 27 Nov 2026 01:48:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 01:30:36 +0000</lastBuildDate>
+  <item>
+    <title>被偷走的树</title>
+    <link>https://book.douban.com/subject/38627394/</link>
+    <guid isPermaLink="false">h:ae4d1e337172292b</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[梁址允 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>下午最后的草坪</title>
+    <link>https://book.douban.com/subject/38228635/</link>
+    <guid isPermaLink="false">h:7fa130d976a3a283</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[村上春树 · 上海译文出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>名探偵のはらわた</title>
+    <link>https://book.douban.com/subject/35146075/</link>
+    <guid isPermaLink="false">h:949bd04d9164809c</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[白井智之 · 新潮社 · 2026-10-01]]></description>
+  </item>
   <item>
     <title>人类考察箴言录</title>
     <link>https://book.douban.com/subject/38685810/</link>
@@ -333,27 +354,6 @@
     <guid isPermaLink="false">h:86c7e322ea9937ac</guid>
     <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[霍华德·索内斯 · 广西师范大学出版社 · 2026-09-01]]></description>
-  </item>
-  <item>
-    <title>杜甫的历史图景：战乱</title>
-    <link>https://book.douban.com/subject/39004007/</link>
-    <guid isPermaLink="false">h:6c9b2f026db2e63f</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[王炳文 · 岳麓书社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>摩托日记</title>
-    <link>https://book.douban.com/subject/38642773/</link>
-    <guid isPermaLink="false">h:41a9fa55e520224d</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[切·格瓦拉 · 民主与建设出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>盖特露德</title>
-    <link>https://book.douban.com/subject/38926280/</link>
-    <guid isPermaLink="false">h:b5802b91ef824054</guid>
-    <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[赫尔曼·黑塞 · 岳麓书社 · 2026-11-01]]></description>
   </item>
 </channel>
 </rss>

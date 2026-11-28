@@ -1,7 +1,245 @@
 {
- "updated": "2026-11-27T01:48:07+00:00",
- "count": 461,
+ "updated": "2026-11-28T01:30:36+00:00",
+ "count": 469,
  "books": [
+  {
+   "id": "h:ae4d1e337172292b",
+   "title": "被偷走的树",
+   "subtitle": "",
+   "authors": [
+    "梁址允"
+   ],
+   "publisher": "新星出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s35675678.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38627394/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "h:7fa130d976a3a283",
+   "title": "下午最后的草坪",
+   "subtitle": "",
+   "authors": [
+    "村上春树"
+   ],
+   "publisher": "上海译文出版社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-11-01",
+   "isbn13": null,
+   "cover": "https://img2.doubanio.com/view/subject/s/public/s35675651.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38228635/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [
+     "上海译文出版社"
+    ],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "h:949bd04d9164809c",
+   "title": "名探偵のはらわた",
+   "subtitle": "",
+   "authors": [
+    "白井智之"
+   ],
+   "publisher": "新潮社",
+   "categories": [
+    "小说"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img3.doubanio.com/view/subject/s/public/s33701007.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/35146075/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "文学"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "h:f0eadd6bd9c17d94",
+   "title": "艺术重要：海德格尔《艺术作品的本源》评注",
+   "subtitle": "",
+   "authors": [
+    "卡斯滕·哈里斯"
+   ],
+   "publisher": "上海人民出版社",
+   "categories": [
+    "艺术设计"
+   ],
+   "published": "2026-10-01",
+   "isbn13": null,
+   "cover": "https://img9.doubanio.com/view/subject/s/public/s35628565.jpg",
+   "description": "",
+   "language": "zh",
+   "url": "https://book.douban.com/subject/38546500/",
+   "sources": [
+    "douban"
+   ],
+   "matched": {
+    "categories": [
+     "艺术"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "isbn:9798891512528",
+   "title": "Coffee and Jesus",
+   "subtitle": "",
+   "authors": [
+    "Jean Fischer"
+   ],
+   "publisher": "Barbour Publishing, Incorporated",
+   "categories": [
+    "Christian life",
+    "Devotional literature"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798891512528",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45151112W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "literature"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "isbn:9798888909348",
+   "title": "Contemplative Study of the Mind, Emotions, and Body",
+   "subtitle": "",
+   "authors": [
+    "Krzysztof T. Konecki"
+   ],
+   "publisher": "Haymarket Books",
+   "categories": [
+    "Emotions",
+    "Psychology",
+    "Philosophy of mind"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798888909348",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152790W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "isbn:9798999248510",
+   "title": "Selah",
+   "subtitle": "",
+   "authors": [
+    "Human Nature"
+   ],
+   "publisher": "INFJ Press",
+   "categories": [
+    "Philosophy",
+    "Social sciences"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798999248510",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152896W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
+  {
+   "id": "isbn:9798990664463",
+   "title": "Fall of Truth : Book I",
+   "subtitle": "",
+   "authors": [
+    "Mark Horacek"
+   ],
+   "publisher": "Mark J Horacek",
+   "categories": [
+    "Philosophy"
+   ],
+   "published": "2026-01-01",
+   "isbn13": "9798990664463",
+   "cover": "",
+   "description": "",
+   "language": "eng",
+   "url": "https://openlibrary.org/works/OL45152922W",
+   "sources": [
+    "open_library"
+   ],
+   "matched": {
+    "categories": [
+     "philosophy"
+    ],
+    "publishers": [],
+    "authors": []
+   },
+   "first_seen": "2026-11-28"
+  },
   {
    "id": "h:ab0740cd49a5e6cf",
    "title": "人类考察箴言录",
@@ -6169,7 +6407,8 @@
     "search engine optimization",
     "artificial intelligence",
     "digital marketing",
-    "Indonesian language"
+    "Indonesian language",
+    "Artificial intelligence"
    ],
    "published": "2026-06-21",
    "isbn13": "9798183501582",
@@ -6838,7 +7077,8 @@
    "categories": [
     "Machine learning",
     "Mass media",
-    "Natural language processing (computer science)"
+    "Natural language processing (computer science)",
+    "Natural language processing (Computer science)"
    ],
    "published": "2026-01-01",
    "isbn13": "9781041175032",
@@ -7221,7 +7461,8 @@
    "categories": [
     "Artificial intelligence",
     "Machine learning",
-    "Natural language processing (computer science)"
+    "Natural language processing (computer science)",
+    "Natural language processing (Computer science)"
    ],
    "published": "2026-01-01",
    "isbn13": "9781394349159",
@@ -7502,7 +7743,8 @@
     "engineered society",
     "artificial intelligence",
     "cyber thriller",
-    "psychohistorical thriller"
+    "psychohistorical thriller",
+    "social hierarchy"
    ],
    "published": "2026-01-01",
    "isbn13": "9798994628409",

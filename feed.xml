@@ -4,7 +4,63 @@
   <title>New Books Tracker</title>
   <link>./</link>
   <description>按类别 / 出版社 / 作者追踪的新书</description>
-  <lastBuildDate>Fri, 27 Nov 2026 01:48:07 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 28 Nov 2026 01:30:36 +0000</lastBuildDate>
+  <item>
+    <title>被偷走的树</title>
+    <link>https://book.douban.com/subject/38627394/</link>
+    <guid isPermaLink="false">h:ae4d1e337172292b</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[梁址允 · 新星出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>下午最后的草坪</title>
+    <link>https://book.douban.com/subject/38228635/</link>
+    <guid isPermaLink="false">h:7fa130d976a3a283</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[村上春树 · 上海译文出版社 · 2026-11-01]]></description>
+  </item>
+  <item>
+    <title>名探偵のはらわた</title>
+    <link>https://book.douban.com/subject/35146075/</link>
+    <guid isPermaLink="false">h:949bd04d9164809c</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[白井智之 · 新潮社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>艺术重要：海德格尔《艺术作品的本源》评注</title>
+    <link>https://book.douban.com/subject/38546500/</link>
+    <guid isPermaLink="false">h:f0eadd6bd9c17d94</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[卡斯滕·哈里斯 · 上海人民出版社 · 2026-10-01]]></description>
+  </item>
+  <item>
+    <title>Coffee and Jesus</title>
+    <link>https://openlibrary.org/works/OL45151112W</link>
+    <guid isPermaLink="false">isbn:9798891512528</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Jean Fischer · Barbour Publishing, Incorporated · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>Contemplative Study of the Mind, Emotions, and Body</title>
+    <link>https://openlibrary.org/works/OL45152790W</link>
+    <guid isPermaLink="false">isbn:9798888909348</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Krzysztof T. Konecki · Haymarket Books · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>Selah</title>
+    <link>https://openlibrary.org/works/OL45152896W</link>
+    <guid isPermaLink="false">isbn:9798999248510</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Human Nature · INFJ Press · 2026-01-01]]></description>
+  </item>
+  <item>
+    <title>Fall of Truth : Book I</title>
+    <link>https://openlibrary.org/works/OL45152922W</link>
+    <guid isPermaLink="false">isbn:9798990664463</guid>
+    <pubDate>Sat, 28 Nov 2026 00:00:00 +0000</pubDate>
+    <description><![CDATA[Mark Horacek · Mark J Horacek · 2026-01-01]]></description>
+  </item>
   <item>
     <title>人类考察箴言录</title>
     <link>https://book.douban.com/subject/38685810/</link>
@@ -298,62 +354,6 @@
     <guid isPermaLink="false">h:531e38eb13183edf</guid>
     <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
     <description><![CDATA[乔伊斯·卡罗尔·欧茨 · 北京联合出版公司 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>中国娼妓史</title>
-    <link>https://book.douban.com/subject/38555205/</link>
-    <guid isPermaLink="false">h:ce63d207342f2e1d</guid>
-    <pubDate>Sat, 21 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[王书奴 · 生活·读书·新知三联书店 · 2026-10-01]]></description>
-  </item>
-  <item>
-    <title>从农民到法国公民：法国农民的现代化（1870—1914）</title>
-    <link>https://book.douban.com/subject/38616060/</link>
-    <guid isPermaLink="false">h:f3a7987f9493c7fc</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[尤金·韦伯 · 北京大学出版社 · 2026-12-01]]></description>
-  </item>
-  <item>
-    <title>The Marketing Machinist</title>
-    <link>https://openlibrary.org/works/OL46498867W</link>
-    <guid isPermaLink="false">isbn:9798143379817</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Ishant Sharma · Independently published · 2026-11-16]]></description>
-  </item>
-  <item>
-    <title>Before the Buyer Calls</title>
-    <link>https://openlibrary.org/works/OL46488544W</link>
-    <guid isPermaLink="false">isbn:9788118412458</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
-  </item>
-  <item>
-    <title>Chosen Worldwide</title>
-    <link>https://openlibrary.org/works/OL46488549W</link>
-    <guid isPermaLink="false">isbn:9788118412434</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
-  </item>
-  <item>
-    <title>Grow Through Dealers</title>
-    <link>https://openlibrary.org/works/OL46488547W</link>
-    <guid isPermaLink="false">isbn:9788118412427</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[Arun Agrawal · EbizIndia Consulting Pvt. Ltd. · 2026-11-11]]></description>
-  </item>
-  <item>
-    <title>瞳中剑</title>
-    <link>https://book.douban.com/subject/38627395/</link>
-    <guid isPermaLink="false">h:48a784e9edbecce0</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[夏桑 · 新星出版社 · 2026-11-01]]></description>
-  </item>
-  <item>
-    <title>艺术的精神疗愈</title>
-    <link>https://book.douban.com/subject/38177157/</link>
-    <guid isPermaLink="false">h:320998ab91b4acaf</guid>
-    <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
-    <description><![CDATA[皮埃尔·勒马奎斯 · 北京联合出版公司 · 2026-11-01]]></description>
   </item>
 </channel>
 </rss>
